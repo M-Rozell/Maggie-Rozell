@@ -1,0 +1,149 @@
+
+* {
+  user-select: none;
+}
+
+.aboutContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/Dark.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutWrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutTitle {
+  position: relative;
+  color: cornsilk;
+  background: -webkit-linear-gradient(#AE8625, #F7EF8A, #D2AC47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Rampart One', sans-serif;
+  margin-left: 17px;
+  top: 25px;
+  font-size: clamp(4rem, 10vw, 8rem);
+  z-index: 3;
+}
+@media screen and (min-width: 1440px) {
+  .aboutTitle {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+
+
+.resume {
+  position: relative;
+  display: flex;
+  padding: .5rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: .25px solid cornsilk;
+}
+@media screen and (min-width: 1440px) {
+  .resume{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+
+.objective {
+  margin: 0;
+  border-radius: 5px;
+  padding: 10px;
+  border: .35px solid cornsilk;
+  border-style: dashed;
+}
+
+.pObjective {
+  font-size: clamp(.65rem, 3vw, 1rem);
+  color: cornsilk;
+  text-indent: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  }
+
+.txtCertifications {
+  color: cornsilk;
+  font-size: .75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.certList {
+  font-size: .65rem;
+  color: cornsilk;
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 0;
+}
+
+.txtEducation {
+  color: cornsilk;
+  font-size: .75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.education {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.educationList {
+  font-size: .65rem;
+  color: cornsilk;
+  margin-left: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.resumeLink {
+  color: #F7EF8A;
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.resumeLink:visited {
+  color: #AE8625;
+}
+.resumeLink:hover {
+  color: cornsilk;
+}
+
+.portfolioLink {
+  color: #F7EF8A;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.portfolioLink:visited {
+  color: #AE8625;
+}
+
+.portfolioLink:hover {
+  color: cornsilk;
+}
+

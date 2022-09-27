@@ -1,0 +1,135 @@
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.taskApp {
+  width: 50vw;
+  height: 50vh;
+  margin-top: 40px;
+}
+
+.taskCompiler {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Bakbak One', sans-serif;
+  color: rgb(40, 40, 40, 0.8);
+}
+
+.horizontalLine {
+  border-color: rgb(40, 40, 40, 0.8);
+  width: 55vw;
+}
+
+.taskForm {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.taskInput {
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: .5rem .5rem .5rem .5rem;
+  border: 2px solid rgb(40, 40, 40, 0.8);
+  background: rgb(40, 40, 40, 0.5);
+  color: #F7EF8A;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: cornsilk;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+/* .taskButton {
+    margin: auto;
+    margin-top: 3px;
+    background: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+    padding: .5rem .5rem .5rem .5rem;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+  } */
+
+.taskInputUpdate {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  padding: .5rem .5rem .5rem .5rem;
+  border: 2px solid rgb(40, 40, 40, 0.8);
+  background: rgb(40, 40, 40, 0.5);
+  color: #F7EF8A;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+/* .taskButtonUpdate {
+    margin: auto;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+    padding: .5rem .5rem .5rem .5rem;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+  } */
+
+.taskRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  padding: .3rem .5rem .3rem .5rem;
+  border: 2px solid rgb(40, 40, 40, 0.8);
+  background: rgb(40, 40, 40, 0.5);
+  color: #F7EF8A;
+  cursor: pointer;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.editIcon {
+  margin-right: 7px;
+  color: #F7EF8A;
+}
+
+.removeIcon {
+  color: #F7EF8A;
+}
+
+.taskCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.taskCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(40, 40, 40, 0.8);
+}

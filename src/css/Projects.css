@@ -1,0 +1,117 @@
+
+.projectsContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/concrete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .projectsTitle {
+    font-family: 'Figtree', sans-serif;
+    position: relative;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    top: 50px;
+    margin-left: 5px;
+    font-size: clamp(2rem, 10vw, 4rem);
+}
+
+.projectsBtns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.projectModals {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.tttBtn {
+    background: transparent;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: .15rem .5rem;
+    background-color: rgb(40, 40, 40, 0.6);
+    margin-top: 10px;
+}
+
+.tttBtn:hover {
+    color: #F7EF8A;
+    border: 1px solid #F7EF8A;
+    transform: scale(1.1);
+}
+
+.taskBtn {
+    background: transparent;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: .15rem .5rem;
+    background-color: rgb(40, 40, 40, 0.6);
+    margin-top: 10px;
+}
+
+.taskBtn:hover {
+    color: #F7EF8A;
+    border: 1px solid #F7EF8A;
+    transform: scale(1.1);
+}
+
+.weatherBtn {
+    background: transparent;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: .15rem .5rem;
+    background-color: rgb(40, 40, 40, 0.6);
+    margin-top: 10px;
+}
+
+.weatherBtn:hover {
+    color: #F7EF8A;
+    border: 1px solid #F7EF8A;
+    transform: scale(1.1);
+}
+
+.bootstrapBtn {
+    background: transparent;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: .15rem .5rem;
+    background-color: rgb(40, 40, 40, 0.6);
+    margin-top: 10px;
+}
+
+.bootstrapBtn:hover {
+    color: #F7EF8A;
+    border: 1px solid #F7EF8A;
+    transform: scale(1.1);
+}
+
+
