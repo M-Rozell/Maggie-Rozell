@@ -55,7 +55,7 @@ const MainHome = () => {
         <Projects />
       </section>
       <section className='homeSections'>
-        <Skills />
+        <Skills CloseKiraVideo={setOpenKira}/>
       </section>
       <section className='homeSections'>
         <div ref={videoSection}>

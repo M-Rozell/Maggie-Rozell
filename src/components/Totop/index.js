@@ -3,13 +3,14 @@ import React from 'react';
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { ArrowUpContainer, ArrowIcon } from './ToTopElements';
 
-const ToTop = () => {
+const ToTop = ({CloseKiraVideo}) => {
 
   const goToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
-    });
+    })
+    CloseKiraVideo()
   };
 
   return (

@@ -5,7 +5,7 @@ import ToTop from '../components/Totop';
 import '../css/Skills.css';
 
 
-const Skills = () => {
+const Skills = ({CloseKiraVideo}) => {
 
   return (
 
@@ -13,8 +13,8 @@ const Skills = () => {
 
       <div className='skillsTitle' id='rotate'>Skills</div>
 
-      <div className='justTryContainer'>
-        <div className='justTry'>
+      <div className='windowContainer'>
+        <div className='window'>
 
           <ScrollingSkills />
 
@@ -24,7 +24,7 @@ const Skills = () => {
       <div className='skillsTitleTwo' id='rotateTwo'>Skills</div>
 
       <div className='bottomArrow'>
-        <ToTop />
+        <ToTop CloseKiraVideo={CloseKiraVideo} />
       </div>
     
     </div>

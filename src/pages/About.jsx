@@ -39,8 +39,9 @@ const About = () => {
 
                             variants={textAnimate}>
                             Hi there! I'm Maggie Rozell, a web designer and full-stack developer with a background
-                            in graphic design and business management. I enjoy problem solving in a fast paced working environment and am looking
-                            forward to growing my career with an innovative company. All of my project repositories can be viewed on my github M-Rozell.
+                            in graphic design and business management. I am a critical thinker who enjoys problem 
+                            solving in a fast paced working environment and am ready to design scalable web applications
+                            for an innovative company.
                         </motion.p>
 
 
@@ -73,7 +74,7 @@ const About = () => {
 
                             variants={textAnimate}>
                             <LinkBtns>
-                                <a href="https://github.com/M-Rozell/Final-Resume-Site" target="blank" className="portfolioLink">Portfolio</a>
+                                <a href="https://github.com/M-Rozell/maggie-rozell" target="blank" className="portfolioLink">Portfolio</a>
                                 <GitHub href="https://github.com/M-Rozell" target="_blank"><BsGithub /></GitHub>
                                 <Email href="mailto: maggiemagnum@gmail.com" ><AiOutlineMail /></Email>
                                 <LinkedIn href="https://www.linkedin.com/in/maggie-rozell/" target="_blank"><ImLinkedin /></LinkedIn>
