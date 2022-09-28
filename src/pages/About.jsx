@@ -4,7 +4,7 @@ import "../css/About.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 import { BsGithub } from "react-icons/bs";
-import pdf from "../files/Resume.pdf";
+import pdf from "../files/Maggie-Rozell-Resume.pdf";
 import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/HeroElements"; //css in HeroElements
 import { motion } from "framer-motion";
 
