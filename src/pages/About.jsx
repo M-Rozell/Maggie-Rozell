@@ -38,10 +38,15 @@ const About = () => {
                         <motion.p className="pObjective"
 
                             variants={textAnimate}>
-                            Hi there! I'm Maggie Rozell, a web designer and full-stack developer with a background
-                            in graphic design and business management. I am a critical thinker who enjoys problem 
-                            solving in a fast paced working environment and am ready to design scalable web applications
-                            for an innovative company.
+                            I am a designer, a thinker, a team player, a leader. In my previous career, I helped
+restaurants, bars, nightclubs, and music venues become better and more profitable.
+Excellence in guest experience and client satisfaction required strict attention to detail,
+something I excel in. With marketing and branding, whether in-house or on social
+media, I helped foster identity and purpose for the businesses I worked with. Now, I want
+to do just that by utilizing my design skills in web development. With a solid
+understanding of HTML, CSS, JavaScript, and ReactJS, I am eager to put everything that
+I have learned together with an innovative company. 
+
                         </motion.p>
 
 

@@ -27,6 +27,12 @@
         height: 500px;
     }
 }
+@media screen and (min-width: 2560px) {
+    #board {
+        width: 1000px;
+        height: 1000px;
+    }
+}
 
 .tttTitle {
     color: rgb(40, 40, 40, 0.8);
@@ -41,6 +47,11 @@
 @media screen and (min-width: 1440px) {
     .tttTitle {
         font-size: 4rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .tttTitle {
+        font-size: 8rem;
     }
 }
 
@@ -69,6 +80,16 @@
         font-size: 4rem;
     }
 }
+@media screen and (min-width: 1440px) {
+    .square {
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .square {
+        font-size: 8rem;
+    }
+}
 
 .square:active {
     background-color: rgb(40, 40, 40, 0.8);
@@ -86,4 +107,14 @@
     cursor: pointer;
     color: rgb(40, 40, 40, 0.8);
     margin-top: 20px;
+}
+@media screen and (min-width: 1440px) {
+    .tttCloseBtn button {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .tttCloseBtn button {
+        font-size: 3rem;
+    }
 }

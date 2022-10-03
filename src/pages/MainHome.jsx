@@ -21,7 +21,7 @@ const MainHome = () => {
         top: videoSection.current.offsetTop,
         behavior: 'smooth'
       })
-    }, 100)
+    }, 500)
   };
 
   const changeCat = () => {

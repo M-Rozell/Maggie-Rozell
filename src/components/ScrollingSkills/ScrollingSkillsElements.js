@@ -27,7 +27,7 @@ export const ScrollBox = styled.div`
 export const ScrollSkills = styled.div`
   display: flex;
   justify-content: center;
-  font-size: 2.25rem;
+  font-size: 2.15rem;
   text-transform: uppercase;
   background-image: linear-gradient(#f56036 0.75px, transparent 1px);
   background-size: 100% 10px;
@@ -43,6 +43,14 @@ export const ScrollSkills = styled.div`
     margin-top: -3500px;
     transition: margin 35s linear;
     margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 4rem;
+  }
+
+  @media screen and (min-width: 2560px) {
+    font-size: 8rem
   }
 `
 

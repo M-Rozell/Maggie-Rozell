@@ -18,8 +18,9 @@
     font-weight: 800;
     top: 50px;
     margin-left: 5px;
-    font-size: clamp(2rem, 10vw, 4rem);
+    font-size: clamp(2rem, 10vw, 20rem);
 }
+
 
 .projectsBtns {
     position: absolute;
@@ -27,6 +28,16 @@
     flex-direction: column;
     margin-top: 100px;
     margin-left: 10px;
+}
+@media screen and (min-width: 1440px) {
+    .projectsBtns {
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .projectsBtns {
+        margin-left: 50px;
+    }
 }
 
 .projectModals {
@@ -47,11 +58,25 @@
     color: cornsilk;
     font-family: 'Kanit', sans-serif;
     font-weight: 600;
+    font-size: 1rem;
     border: 1px solid cornsilk;
     border-radius: 5px;
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
+}
+@media screen and (min-width: 1440px) {
+    .tttBtn {
+        font-size: 2rem;
+        padding: .3rem 3rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .tttBtn {
+        font-size: 4rem;
+        padding: .3rem 8rem;
+        border: 3px solid cornsilk;
+    }
 }
 
 .tttBtn:hover {
@@ -71,6 +96,19 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
+@media screen and (min-width: 1440px) {
+    .taskBtn {
+        font-size: 2rem;
+        padding: .3rem 3rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .taskBtn {
+        font-size: 4rem;
+        padding: .3rem 8rem;
+        border: 3px solid cornsilk;
+    }
+}
 
 .taskBtn:hover {
     color: #F7EF8A;
@@ -89,6 +127,19 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
+@media screen and (min-width: 1440px) {
+    .weatherBtn {
+        font-size: 2rem;
+        padding: .3rem 3rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .weatherBtn {
+        font-size: 4rem;
+        padding: .3rem 8rem;
+        border: 3px solid cornsilk;
+    }
+}
 
 .weatherBtn:hover {
     color: #F7EF8A;
@@ -106,6 +157,19 @@
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
+}
+@media screen and (min-width: 1440px) {
+    .bootstrapBtn {
+        font-size: 2rem;
+        padding: .3rem 3rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .bootstrapBtn {
+        font-size: 4rem;
+        padding: .3rem 8rem;
+        border: 3px solid cornsilk;
+    }
 }
 
 .bootstrapBtn:hover {

@@ -17,7 +17,28 @@
   margin-bottom: 5px;
   text-align: center;
   font-family: 'Bakbak One', sans-serif;
+  font-size: 1rem;
   color: rgb(40, 40, 40, 0.8);
+}
+@media screen and (min-width: 375px) {
+  .taskCompiler {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .taskCompiler {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskCompiler {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .taskCompiler {
+    font-size: 10rem;
+  }
 }
 
 .horizontalLine {
