@@ -7,11 +7,43 @@
   padding: 20px;
 }
 
+
 .taskApp {
   width: 50vw;
   height: 50vh;
   margin-top: 40px;
 }
+
+
+.taskCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.taskCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(40, 40, 40, 0.8);
+}
+@media screen and (min-width: 1024px) {
+  .taskCloseBtn button {
+      font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskCloseBtn button {
+      font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .taskCloseBtn button {
+      font-size: 3rem;
+  }
+}
+
 
 .taskCompiler {
   margin-bottom: 5px;
@@ -32,19 +64,21 @@
 }
 @media screen and (min-width: 1440px) {
   .taskCompiler {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media screen and (min-width: 2560px) {
   .taskCompiler {
-    font-size: 10rem;
+    font-size: 6rem;
   }
 }
+
 
 .horizontalLine {
   border-color: rgb(40, 40, 40, 0.8);
   width: 55vw;
 }
+
 
 .taskForm {
   display: flex;
@@ -52,6 +86,7 @@
   flex-direction: row;
   position: relative;
 }
+
 
 .taskInput {
   position: relative;
@@ -64,12 +99,49 @@
   color: #F7EF8A;
   font-family: 'Play', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .taskInput {
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskInput {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .taskInput {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    font-size: 3rem;
+  }
 }
 
-::placeholder {
+
+.taskInput::placeholder {
   color: cornsilk;
   font-family: 'Play', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .taskInput::placeholder {
+    font-size: 1.5rem;
+    
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskInput::placeholder {
+    font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+  .taskInput::placeholder {
+    font-size: 3rem;
+    }
 }
 
 /* .taskButton {
@@ -83,7 +155,8 @@
     font-weight: 400;
   } */
 
-.taskInputUpdate {
+
+  .taskInputUpdate {
   position: relative;
   margin: auto;
   margin-top: 10px;
@@ -93,6 +166,25 @@
   color: #F7EF8A;
   font-family: 'Play', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .taskInputUpdate {
+    font-size: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskInputUpdate {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .taskInputUpdate {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    font-size: 3rem;
+  }
 }
 
 /* .taskButtonUpdate {
@@ -106,7 +198,8 @@
     font-weight: 400;
   } */
 
-.taskRow {
+
+  .taskRow {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,38 +212,63 @@
   cursor: pointer;
   font-family: 'Play', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
 }
+@media screen and (min-width: 768px) {
+  .taskRow {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .taskRow {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .taskRow {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    font-size: 3rem;
+  }
+}
+
 
 .complete {
   text-decoration: line-through;
   opacity: 0.5;
 }
 
+
 .icons {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
+@media screen and (min-width: 768px) {
+  .icons {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icons {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .icons {
+    font-size: 5rem;
+  }
+}
+
 
 .editIcon {
   margin-right: 7px;
   color: #F7EF8A;
 }
 
+
 .removeIcon {
   color: #F7EF8A;
 }
 
-.taskCloseBtn {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.taskCloseBtn button {
-  background-color: transparent;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-  color: rgb(40, 40, 40, 0.8);
-}

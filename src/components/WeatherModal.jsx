@@ -33,23 +33,22 @@ function WeatherModal({ closeModal, openBtn }) {
 
         <div className="weatherAppContainer">
 
+            <div className='weatherCloseBtn '>
+                <button onClick={() => handleCloseWeatherModal()}><AiOutlineCloseCircle /></button>
+            </div>
+
             <div className="weatherApp">
-                <div className='weatherCloseBtn '>
-                    <button onClick={() => handleCloseWeatherModal()}><AiOutlineCloseCircle /></button>
+
+                <div className="search">
+                    <input className='weatherInput' value={location} onChange={e => setLocation(e.target.value)} type='text' placeholder="Location" onKeyPress={search} />
+                    <div className="day">{moment().format('MMMM Do YYYY, h:mm a')}</div>
                 </div>
 
-                <div className="topContainer">
 
-                    <div className="search">
-                        <input value={location} onChange={e => setLocation(e.target.value)} type='text' placeholder="Location" onKeyPress={search} />
-                        <div className="day">{moment().format('MMMM Do YYYY, h:mm a')}</div>
-                    </div>
-                </div>
-
-                <div className="weatherContainer">
+                
                     <div className="top">
                         <div className="location"><p className="paraLocation">{data.name}</p></div>
-                        <div className="temp">{data.main ? <h1 className="tempHone">{data.main.temp.toFixed()}°F</h1> : null}</div>
+                        <div className="temp">{data.main ? <h1 className="tempHome">{data.main.temp.toFixed()}°F</h1> : null}</div>
                         <div className="skyBox">
                             <div className="weatherIcon">{data.weather ? <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`} alt="A Beautiful Sunny Day"></img> : null}</div>
                             <div className="sky">{data.weather ? <p className="paraSky">{data.weather[0].main}</p> : null}</div>
@@ -64,7 +63,7 @@ function WeatherModal({ closeModal, openBtn }) {
                         </div>
                     }
 
-                </div>
+                
             </div>
         </div>
     )

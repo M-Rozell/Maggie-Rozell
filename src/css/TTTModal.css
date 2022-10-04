@@ -8,6 +8,64 @@
     padding: 20px;
 }
 
+
+.tttCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tttCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(40, 40, 40, 0.8);
+    margin-top: 20px;
+}
+@media screen and (min-width: 1024px) {
+    .tttCloseBtn button {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .tttCloseBtn button {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .tttCloseBtn button {
+        font-size: 3rem;
+    }
+}
+
+
+.tttTitle {
+    color: rgb(40, 40, 40, 0.8);
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 2rem;
+}
+@media screen and (min-width: 768px) {
+    .tttTitle {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .tttTitle {
+        font-size: 3.25rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .tttTitle {
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .tttTitle {
+        font-size: 6rem;
+    }
+}
+
+
 #board {
     width: 275px;
     height: 275px;
@@ -21,6 +79,12 @@
         height: 300px;
     }
 }
+@media screen and (min-width: 1024px) {
+    #board {
+        width: 350px;
+        height: 350px;
+    }
+}
 @media screen and (min-width: 1440px) {
     #board {
         width: 500px;
@@ -29,37 +93,18 @@
 }
 @media screen and (min-width: 2560px) {
     #board {
-        width: 1000px;
-        height: 1000px;
+        width: 700px;
+        height: 700px;
     }
 }
 
-.tttTitle {
-    color: rgb(40, 40, 40, 0.8);
-    font-family: 'Bakbak One', sans-serif;
-    font-size: 2rem;
-}
-@media screen and (min-width: 768px) {
-    .tttTitle {
-        font-size: 3rem;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .tttTitle {
-        font-size: 4rem;
-    }
-}
-@media screen and (min-width: 2560px) {
-    .tttTitle {
-        font-size: 8rem;
-    }
-}
 
 .tRow {
     flex: 33%;
     display: flex;
     flex-direction: row;
 }
+
 
 .square {
     flex: 33%;
@@ -90,31 +135,7 @@
         font-size: 8rem;
     }
 }
-
 .square:active {
     background-color: rgb(40, 40, 40, 0.8);
 }
 
-.tttCloseBtn {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.tttCloseBtn button {
-    background-color: transparent;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-    color: rgb(40, 40, 40, 0.8);
-    margin-top: 20px;
-}
-@media screen and (min-width: 1440px) {
-    .tttCloseBtn button {
-        font-size: 1.5rem;
-    }
-}
-@media screen and (min-width: 2560px) {
-    .tttCloseBtn button {
-        font-size: 3rem;
-    }
-}

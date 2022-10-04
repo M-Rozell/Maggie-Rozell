@@ -117,7 +117,7 @@
 @media screen and (min-width: 768px) {
   .window {
     width: 400px;
-    height: 80vh;
+    height: 70vh;
     margin-top: 30px;
   }
 }
@@ -125,7 +125,7 @@
 @media screen and (min-width: 1440px) {
   .window {
     width: 550px;
-    height: 60vh;
+    height: 50vh;
     margin-top: 30px;
   }
 }

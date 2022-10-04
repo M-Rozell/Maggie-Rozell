@@ -18,9 +18,24 @@
     font-weight: 800;
     top: 50px;
     margin-left: 5px;
-    font-size: clamp(2rem, 10vw, 20rem);
+    font-size: 2rem;
+    /* font-size: clamp(2rem, 10vw, 8rem); */
 }
-
+@media screen and (min-width: 768px) {
+    .projectsTitle {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .projectsTitle {
+        font-size: 8rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .projectsTitle {
+        font-size: 15rem;
+    }
+}
 
 .projectsBtns {
     position: absolute;
@@ -49,7 +64,7 @@
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 
@@ -73,8 +88,7 @@
 }
 @media screen and (min-width: 2560px) {
     .tttBtn {
-        font-size: 4rem;
-        padding: .3rem 8rem;
+        font-size: 3rem;
         border: 3px solid cornsilk;
     }
 }
@@ -104,8 +118,7 @@
 }
 @media screen and (min-width: 2560px) {
     .taskBtn {
-        font-size: 4rem;
-        padding: .3rem 8rem;
+        font-size: 3rem;
         border: 3px solid cornsilk;
     }
 }
@@ -135,8 +148,7 @@
 }
 @media screen and (min-width: 2560px) {
     .weatherBtn {
-        font-size: 4rem;
-        padding: .3rem 8rem;
+        font-size: 3rem;
         border: 3px solid cornsilk;
     }
 }
@@ -166,8 +178,7 @@
 }
 @media screen and (min-width: 2560px) {
     .bootstrapBtn {
-        font-size: 4rem;
-        padding: .3rem 8rem;
+        font-size: 3rem;
         border: 3px solid cornsilk;
     }
 }
