@@ -20,7 +20,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
 
-                <Route path="/" element={<MainHome />} />
+                <Route path="http://M-Rozell.github.io/maggie-rozell" element={<MainHome />} />
                 <Route path="/Films" element={<Films />} />
                 <Route path="/People" element={<People />} />
                 <Route path="/Vehicles" element={<Vehicles />} />
