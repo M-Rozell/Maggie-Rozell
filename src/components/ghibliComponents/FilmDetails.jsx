@@ -29,7 +29,7 @@ const FilmDetails = () => {
                 <Navbar />
 
                 <div className="row justify-content-center mt-5 mb-5">
-                    <div className="col-md-6">
+                    <div className="col-sm-6">
                         <div className="card shadow rounded text-center ">
                             <img className="card-top" src={details?.image} alt="" />
                             <div className="card-body">
