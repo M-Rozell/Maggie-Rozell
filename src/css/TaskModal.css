@@ -1,7 +1,7 @@
+
 .taskContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 20px;
@@ -11,7 +11,7 @@
 .taskApp {
   width: 50vw;
   height: 50vh;
-  margin-top: 40px;
+  margin-top: 1rem;
 }
 
 
@@ -28,19 +28,19 @@
   cursor: pointer;
   color: rgb(40, 40, 40, 0.8);
 }
-@media screen and (min-width: 1024px) {
-  .taskCloseBtn button {
+  @media screen and (min-width: 1024px) {
+    .taskCloseBtn button {
+      font-size: 1.15rem;
+  }
+}
+  @media screen and (min-width: 1440px) {
+    .taskCloseBtn button {
       font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskCloseBtn button {
+  @media screen and (min-width: 2560px) {
+    .taskCloseBtn button {
       font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 2560px) {
-  .taskCloseBtn button {
-      font-size: 3rem;
   }
 }
 
@@ -52,24 +52,24 @@
   font-size: 1rem;
   color: rgb(40, 40, 40, 0.8);
 }
-@media screen and (min-width: 375px) {
-  .taskCompiler {
-    font-size: 1.5rem;
+  @media screen and (min-width: 375px) {
+    .taskCompiler {
+      font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 768px) {
-  .taskCompiler {
-    font-size: 3rem;
+  @media screen and (min-width: 768px) {
+    .taskCompiler {
+      font-size: 2rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskCompiler {
-    font-size: 4rem;
+  @media screen and (min-width: 1440px) {
+    .taskCompiler {
+      font-size: 2.15rem;
   }
 }
-@media screen and (min-width: 2560px) {
-  .taskCompiler {
-    font-size: 6rem;
+  @media screen and (min-width: 2560px) {
+    .taskCompiler {
+      font-size: 3rem;
   }
 }
 
@@ -93,7 +93,7 @@
   margin: auto;
   margin-top: 5px;
   margin-bottom: 20px;
-  padding: .5rem .5rem .5rem .5rem;
+  padding: .3rem;
   border: 2px solid rgb(40, 40, 40, 0.8);
   background: rgb(40, 40, 40, 0.5);
   color: #F7EF8A;
@@ -101,22 +101,20 @@
   font-weight: 400;
   font-size: 1rem;
 }
-@media screen and (min-width: 768px) {
-  .taskInput {
-    padding: .5rem 1rem .5rem 1rem;
-    font-size: 1.5rem;
+  @media screen and (min-width: 768px) {
+    .taskInput {
+      font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskInput {
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 2.5rem;
+  @media screen and (min-width: 1440px) {
+    .taskInput {
+      padding: .5rem;
+      font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 2560px) {
-  .taskInput {
-    padding: 1.5rem 2rem 1.5rem 2rem;
-    font-size: 3rem;
+  @media screen and (min-width: 2560px) {
+    .taskInput {
+      font-size: 1.75rem;
   }
 }
 
@@ -127,20 +125,20 @@
   font-weight: 400;
   font-size: 1rem;
 }
-@media screen and (min-width: 768px) {
-  .taskInput::placeholder {
-    font-size: 1.5rem;
+  @media screen and (min-width: 768px) {
+    .taskInput::placeholder {
+      font-size: 1.25rem;
     
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskInput::placeholder {
-    font-size: 2.5rem;
+  @media screen and (min-width: 1440px) {
+    .taskInput::placeholder {
+      font-size: 1.5rem;
     }
 }
-@media screen and (min-width: 2560px) {
-  .taskInput::placeholder {
-    font-size: 3rem;
+  @media screen and (min-width: 2560px) {
+    .taskInput::placeholder {
+      font-size: 1.75rem;
     }
 }
 
@@ -156,7 +154,7 @@
   } */
 
 
-  .taskInputUpdate {
+.taskInputUpdate {
   position: relative;
   margin: auto;
   margin-top: 10px;
@@ -168,22 +166,22 @@
   font-weight: 400;
   font-size: 1rem;
 }
-@media screen and (min-width: 768px) {
-  .taskInputUpdate {
-    font-size: 1.5rem;
-    padding: .5rem 1rem .5rem 1rem;
+  @media screen and (min-width: 768px) {
+    .taskInputUpdate {
+      font-size: 1rem;
+      padding: .5rem 1rem .5rem 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskInputUpdate {
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 2.5rem;
+  @media screen and (min-width: 1440px) {
+    .taskInputUpdate {
+      padding: 1rem 2rem 1rem 2rem;
+      font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 2560px) {
-  .taskInputUpdate {
-    padding: 1.5rem 2rem 1.5rem 2rem;
-    font-size: 3rem;
+  @media screen and (min-width: 2560px) {
+    .taskInputUpdate {
+      padding: 1.5rem 2rem 1.5rem 2rem;
+      font-size: 1.5rem;
   }
 }
 
@@ -199,7 +197,7 @@
   } */
 
 
-  .taskRow {
+.taskRow {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,21 +212,21 @@
   font-weight: 400;
   font-size: 1rem;
 }
-@media screen and (min-width: 768px) {
-  .taskRow {
-    font-size: 1.5rem;
+  @media screen and (min-width: 768px) {
+    .taskRow {
+      font-size: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .taskRow {
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 2.5rem;
+  @media screen and (min-width: 1440px) {
+    .taskRow {
+      padding: 1rem 2rem 1rem 2rem;
+      font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 2560px) {
-  .taskRow {
-    padding: 1.5rem 2rem 1.5rem 2rem;
-    font-size: 3rem;
+  @media screen and (min-width: 2560px) {
+    .taskRow {
+      padding: 1.5rem 2rem 1.5rem 2rem;
+      font-size: 1.5rem;
   }
 }
 
@@ -245,19 +243,19 @@
   cursor: pointer;
   font-size: 1rem;
 }
-@media screen and (min-width: 768px) {
-  .icons {
-    font-size: 1.5rem;
+  @media screen and (min-width: 768px) {
+    .icons {
+      font-size: 1rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .icons {
-    font-size: 2.5rem;
+  @media screen and (min-width: 1440px) {
+    .icons {
+      font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 2560px) {
-  .icons {
-    font-size: 5rem;
+  @media screen and (min-width: 2560px) {
+    .icons {
+      font-size: 3rem;
   }
 }
 

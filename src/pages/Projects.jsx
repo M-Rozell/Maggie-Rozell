@@ -1,11 +1,12 @@
 
-import WeatherModal from '../components/WeatherModal';
-import TaskModal from '../components/TaskModal';
-import { useNavigate } from 'react-router-dom';
-import TTTModal from '../components/TTTModal';
-import React, { useState } from 'react';
-import '../css/BootstrapGhibli.css';
 import '../css/Projects.css';
+import '../css/BootstrapGhibli.css';
+import React, { useState } from 'react';
+import TTTModal from '../components/TTTModal';
+import { useNavigate } from 'react-router-dom';
+import TaskModal from '../components/TaskModal';
+import WeatherModal from '../components/WeatherModal';
+
 
 const Projects = () => {
 
@@ -38,6 +39,7 @@ const Projects = () => {
   return (
 
     <div className='projectsContainer' id='Projects'>
+
       <div className='projectsTitle'>PROJECTS</div>
 
       <div className='projectsModalContent'>

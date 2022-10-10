@@ -1,10 +1,12 @@
 
 import styled from "styled-components";
 
+
 export const ArrowUpContainer = styled.div`
   position: relative;
   display: flex;
 `
+
 
 export const ArrowIcon = styled.div`
     color: cornsilk;
@@ -15,9 +17,9 @@ export const ArrowIcon = styled.div`
     animation: movebtn 3s linear infinite;
     transition: all .5s ease-in-out;
 
-&:hover {
-  animation: none;
-  color: #F7EF8A;
+    &:hover {
+        animation: none;
+        color: #F7EF8A;
   }
 
   @keyframes movebtn {

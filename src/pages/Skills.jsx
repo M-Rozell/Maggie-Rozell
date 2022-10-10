@@ -1,11 +1,11 @@
 
 import React from 'react';
-import ScrollingSkills from '../components/ScrollingSkills';
-import ToTop from '../components/Totop';
 import '../css/Skills.css';
+import ToTop from '../components/Totop';
+import ScrollingSkills from '../components/ScrollingSkills';
 
 
-const Skills = ({CloseKiraVideo}) => {
+const Skills = ({ CloseKiraVideo }) => {
 
   return (
 
@@ -26,7 +26,7 @@ const Skills = ({CloseKiraVideo}) => {
       <div className='bottomArrow'>
         <ToTop CloseKiraVideo={CloseKiraVideo} />
       </div>
-    
+
     </div>
   )
 };

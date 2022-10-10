@@ -1,8 +1,8 @@
 
-import { MdModeEditOutline } from 'react-icons/md';
-import { AiOutlineClose } from 'react-icons/ai';
-import React, { useState } from 'react';
 import TaskForm from './TaskForm';
+import React, { useState } from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { MdModeEditOutline } from 'react-icons/md';
 
 
 function Tasks({ tasks, completeTask, removeTask, updateTask }) {
@@ -23,9 +23,10 @@ function Tasks({ tasks, completeTask, removeTask, updateTask }) {
         return <TaskForm edit={edit} onSubmit={submitUpdate} />
     };
 
+    
     return tasks.map((task, index) => (
 
-        <div className={task.isComplete ? 'taskRow complete' : 'taskRow'} //ternary operator
+        <div className={task.isComplete ? 'taskRow complete' : 'taskRow'}
             key={index}>
 
             <div key={task.id} onClick={() => completeTask(task.id)}>

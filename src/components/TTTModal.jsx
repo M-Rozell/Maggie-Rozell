@@ -1,9 +1,10 @@
 
-import { WinningCells } from './tttComponents/WinningCells';
+import '../css/TTTModal.css';
+import Square from './tttComponents/Square';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import React, { useState, useEffect } from 'react';
-import Square from './tttComponents/Square';
-import '../css/TTTModal.css';
+import { WinningCells } from './tttComponents/WinningCells';
+
 
 function TTTModal({ closeModal, openBtn }) {
 
@@ -79,14 +80,14 @@ function TTTModal({ closeModal, openBtn }) {
 
     return (
 
-        <div className='container tttContainer'>
+        <div className='tttContainer'>
             <div className='tttModalBg'>
 
                 <div className='tttCloseBtn '>
                     <button onClick={() => handleCloseTTTModal()}><AiFillCloseCircle /></button>
                 </div>
 
-                <h2 className='tttTitle'>Tic Tac Toe</h2>
+                <div className='tttTitle'>Tic Tac Toe</div>
 
                 <div id="board" className=''>
 

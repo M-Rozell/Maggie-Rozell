@@ -1,12 +1,13 @@
 
 import React from 'react';
-import Icon from '../images/starPort50.png';
-import { motion } from "framer-motion";
-import { ObjectOneAnimation } from '../animationElements';
 import '../animation.css';
+import { motion } from "framer-motion";
+import Icon from '../images/starPort50.png';
+import { ObjectOneAnimation } from '../animationElements';
 
 
 const iconVariant = {
+
     animationStyle: {
         scale: [1, 1.25, 1.75, 2, 2.25, 2.25, 2, 1.75, 1.25, 1],
         rotate: [0, 90, 180, 270, 360, 360, 270, 180, 90, 0],
@@ -18,7 +19,6 @@ const iconVariant = {
             repeatType: 'loop'
         },// repeat: Infinity delay: 1
         opacity: 1,
-
     }
 };
 
@@ -43,7 +43,6 @@ export default function FirstStyle(i) {
                 >
                 </motion.img>
             </ObjectOneAnimation>
-
         </>
     )
 };

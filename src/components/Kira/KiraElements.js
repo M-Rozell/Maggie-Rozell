@@ -1,5 +1,5 @@
 
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const VideoContainer = styled.div`
     width: 100%;
@@ -8,8 +8,8 @@ export const VideoContainer = styled.div`
     padding: 0;
     position: relative;
     background-color: rgb(0, 0, 0, 0.9);
-
 `
+
 export const VideoAnimationWrapper = styled.div`
     position: relative;
     overflow: hidden;
@@ -29,6 +29,7 @@ export const VideoWrapper = styled.div`
     align-items: center;
     z-index: 5;
 `
+
 export const KiraFrame = styled.div`
     position: absolute;
     width: 300px;
@@ -36,6 +37,16 @@ export const KiraFrame = styled.div`
     background-color: #fa1402;
     box-shadow: #FF8300 0px 0px 0px 2px inset, rgb(0, 0, 0, 0.9) -5px 5px 0px -3px, #fcf003 -5px 5px, rgb(0, 0, 0, 0.9) -10px 10px 0px -3px, #88db02 -10px 10px, rgb(0, 0, 0, 0.9) -15px 15px 0px -3px, #741AAC -15px 15px, rgb(0, 0, 0, 0.9) -20px 20px 0px -3px, #0000FF -20px 20px;
     z-index: 7;
+
+    @media screen and (min-width: 1440px) {
+        width: 500px;
+        height: 800px;
+    }
+
+    @media screen and (min-width: 2560px) {
+        width: 700px;
+        height: 1100px;
+    }
 `
 
 
@@ -51,6 +62,7 @@ export const VideoBg = styled.div`
     z-index: 6;
 `
 
+
 export const KiraVideo = styled.video`
     width: 275px;
     height: 475px;
@@ -60,4 +72,16 @@ export const KiraVideo = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+
+    @media screen and (min-width: 1440px) {
+        width: 475px;
+        height: 775px;
+        border: 2px solid cornsilk;
+}
+
+    @media screen and (min-width: 2560px) {
+        width: 675px;
+        height: 1075px;
+        border: 3px solid cornsilk;
+}
 `

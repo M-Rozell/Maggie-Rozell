@@ -1,9 +1,9 @@
 
-import { AiOutlineCloseCircle } from 'react-icons/ai';
-import React, { useState } from "react";
-import '../css/WeatherModal.css';
 import axios from "axios";
 import moment from "moment";
+import '../css/WeatherModal.css';
+import React, { useState } from "react";
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 
 function WeatherModal({ closeModal, openBtn }) {
@@ -32,6 +32,7 @@ function WeatherModal({ closeModal, openBtn }) {
     return (
 
         <div className="weatherAppContainer">
+            <div className='weatherWrapper'>
 
             <div className='weatherCloseBtn '>
                 <button onClick={() => handleCloseWeatherModal()}><AiOutlineCloseCircle /></button>
@@ -63,7 +64,7 @@ function WeatherModal({ closeModal, openBtn }) {
                         </div>
                     }
 
-                
+                </div>
             </div>
         </div>
     )

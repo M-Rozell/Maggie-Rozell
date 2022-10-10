@@ -12,6 +12,7 @@
   overflow: hidden;
 }
 
+
 .skillsTitle {
   position: relative;
   text-align: center;
@@ -22,9 +23,9 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 327px) {
-  .skillsTitle {
-    font-size: 8rem;
+  @media screen and (min-width: 327px) {
+    .skillsTitle {
+      font-size: 8rem;
   }
 }
 
@@ -36,30 +37,26 @@
     margin: 0;
     padding: 0;
     top: 50%;
-
     transform: translateX(-25%) translateY(-50%) rotate(-90deg);
   }
 }
-
 @media screen and (min-width: 1440px) {
   #rotate {
     font-size: 20rem;
   }
 }
-
 @media screen and (min-width: 2560px) {
   #rotate {
     font-size: 30rem;
   }
 }
 
+
 @media screen and (max-width: 767px) {
   .skillsTitleTwo {
     display: none;
   }
 }
-
-
 @media screen and (min-width: 768px) {
   .skillsTitleTwo {
     position: absolute;
@@ -70,22 +67,20 @@
     padding: 0;
     right: 0;
     top: 50%;
-
     transform: scale(-1, 1) translateX(-25%) translateY(-50%) rotate(-90deg);
   }
 }
-
 @media screen and (min-width: 1440px) {
   .skillsTitleTwo {
     font-size: 20rem;
   }
 }
-
 @media screen and (min-width: 2560px) {
   .skillsTitleTwo {
     font-size: 30rem;
   }
 }
+
 
 .windowContainer {
   position: relative;
@@ -98,6 +93,7 @@
   z-index: 2;
 }
 
+
 .window {
   position: relative;
   width: 278px;
@@ -106,33 +102,30 @@
   overflow: hidden;
   overscroll-behavior: contain;
 }
-
-@media screen and (min-width: 377px) {
-  .window {
-    width: 300px;
-    height: 500px;
+  @media screen and (min-width: 377px) {
+    .window {
+      width: 300px;
+      height: 500px;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .window {
-    width: 400px;
-    height: 70vh;
-    margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    .window {
+      width: 400px;
+      height: 70vh;
+      margin-top: 30px;
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .window {
-    width: 550px;
-    height: 50vh;
-    margin-top: 30px;
+  @media screen and (min-width: 1440px) {
+    .window {
+      width: 550px;
+      height: 50vh;
+      margin-top: 30px;
   }
 }
 
 @media screen and (min-width: 2560px) {
   .window {
-    width: 1200px;
+    width: 1000px;
     height: 75vh;
     margin-top: 30px;
   }

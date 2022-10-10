@@ -1,14 +1,15 @@
 
 import React from 'react';
-import { UlAnimation } from '../animationElements';
 import FirstStyle from './FirstStyle';
 import { ListOne } from '../animationElements';
+import { UlAnimation } from '../animationElements';
+
 
 const range = (start, end) => {
     return Array(end - start + 1).fill().map((_, idx) => start + idx)
 };
 
-const rangeResult = range(1, 10);
+const rangeResult = range(1, 20);
 
 const listAnimations = rangeResult.map((e, i) =>
     <ListOne

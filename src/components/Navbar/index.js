@@ -1,7 +1,7 @@
 
-import React, { useState, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
 import Sidebar from '../Sidebar';
+import { FaBars } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
 import { Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
 
@@ -20,6 +20,7 @@ const MainNavbar = ({ CloseKiraVideo }) => {
     }
   };
 
+  
   useEffect(() => {
     window.addEventListener('scroll', changeNav)
   }, []);

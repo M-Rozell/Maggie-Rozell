@@ -11,6 +11,7 @@ export const AnimationContainer = styled.div`
     z-index: 0;
 `
 
+
 export const AnimationOneWrapper = styled.div`
     width: 100%;
     height: 100%;
@@ -21,6 +22,7 @@ export const AnimationOneWrapper = styled.div`
     background: transparent;
     z-index: 0;
 `
+
 export const AnimationTwoWrapper = styled.div`
     width: 100%;
     height: 100%;
@@ -31,6 +33,7 @@ export const AnimationTwoWrapper = styled.div`
     background: transparent;
     z-index: 1;
 `
+
 export const AnimationThreeWrapper = styled.div`
     width: 100%;
     height: 100%;
@@ -42,6 +45,7 @@ export const AnimationThreeWrapper = styled.div`
     z-index: 2;
 `
 
+
 export const UlAnimation = styled.ul`
     list-style-type: none;
     position: relative;
@@ -51,6 +55,7 @@ export const UlAnimation = styled.ul`
     z-index: 0;
 `
 
+
 export const UlTwoAnimation = styled.div`
     list-style-type: none;
     position: relative;
@@ -59,6 +64,7 @@ export const UlTwoAnimation = styled.div`
     background: transparent;
     z-index: 1;
 `
+
 export const UlThreeAnimation = styled.div`
     list-style-type: none;
     position: relative;
@@ -68,16 +74,21 @@ export const UlThreeAnimation = styled.div`
     z-index: 2;
 `
 
+
 export const ObjectOneAnimation = styled.div`
  position: relative;
 `
+
 export const ListOne = styled.li`
 `
 
+
 export const ObjectTwoAnimation = styled.div`
 `
+
 export const ObjectThreeAnimation = styled.div`
 `
+
 
 export const LoopContainer = styled.div`
 `

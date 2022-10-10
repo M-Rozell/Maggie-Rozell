@@ -1,6 +1,7 @@
 
-import '../../css/TTTModal.css';
 import React from 'react';
+import '../../css/TTTModal.css';
+
 
 function Square({ value, clickSquare }) {
 

@@ -1,13 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
-import HeroSection from '../components/HeroSection';
-import Kira from '../components/Kira';
-import MainNavbar from '../components/Navbar';
+
 import About from './About';
-import Projects from './Projects';
-import Skills from './Skills';
-import { CatIcon } from '../components/Navbar/NavbarElements';
-import { GiHollowCat } from 'react-icons/gi';
 import "../css/MainHome.css";
+import Skills from './Skills';
+import Projects from './Projects';
+import Kira from '../components/Kira';
+import { GiHollowCat } from 'react-icons/gi';
+import MainNavbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
+import React, { useState, useEffect, useRef } from 'react';
+import { CatIcon } from '../components/Navbar/NavbarElements';
+
 
 const MainHome = () => {
 
@@ -48,15 +50,19 @@ const MainHome = () => {
       <section className='homeSections'>
         <HeroSection />
       </section>
+      
       <section className='homeSections'>
         <About />
       </section>
+      
       <section className='homeSections'>
         <Projects />
       </section>
+      
       <section className='homeSections'>
-        <Skills CloseKiraVideo={setOpenKira}/>
+        <Skills CloseKiraVideo={setOpenKira} />
       </section>
+      
       <section className='homeSections'>
         <div ref={videoSection}>
           {openKira && <Kira />}

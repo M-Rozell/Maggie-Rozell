@@ -25,6 +25,7 @@ export const HeroContainer = styled.div`
   padding: 0;
 `
 
+
 export const TextWrapper = styled.section`
   width: 100%;
   height: 100vh;
@@ -33,17 +34,19 @@ export const TextWrapper = styled.section`
   left: 0;
 `
 
+
 export const NameP1 = styled.p`
   position: absolute;
   color: #F7EF8A;
   font-family: 'IM Fell Great Primer SC', serif;
-  font-size: 2rem;
-  bottom: 20px;
-  left: 20px;
+  /* font-size: 2rem; */
+  font-size: clamp(2rem, 1rem + 5vw, 7rem);
+  bottom: .75rem;
+  left: clamp(.5rem, 1rem + 5vw, 1.25rem);
   animation-name: ${fadeIn};
   animation-duration: 5s;
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   font-size: 4rem;
 }
 
@@ -53,7 +56,7 @@ export const NameP1 = styled.p`
 
 @media screen and (min-width: 2500px) {
   font-size: 7rem;
-}
+} */
 
 `
 
@@ -70,25 +73,29 @@ export const LinkBtns = styled.div`
   padding: 0;
   margin: 0;
 
-  @media screen and (min-width: 390px) {
-    font-size: 1.25rem;
+    @media screen and (min-width: 390px) {
+      font-size: 1.25rem;
   }
-  @media screen and (min-width: 768px) {
-    font-size: 1.5rem;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
   }
 `
+
+
 export const GitHub = styled.a`
   color: #F7EF8A;
   text-decoration: none;
 
-&:visited {
+  &:visited {
     color: #AE8625;
   }
 
-&:hover {
+  &:hover {
     color: cornsilk;
   }
 `
+
 
 export const Email = styled.a`
   margin-left: 10px;
@@ -96,24 +103,25 @@ export const Email = styled.a`
   color: #F7EF8A;
   text-decoration: none;
 
-&:visited {
+  &:visited {
     color: #AE8625;
   }
 
-&:hover {
+  &:hover {
     color: cornsilk;
   }
 `
+
 
 export const LinkedIn = styled.a`
   color: #F7EF8A;
   text-decoration: none;
 
-&:visited {
+  &:visited {
     color: #AE8625;
   }
 
-&:hover {
+  &:hover {
     color: cornsilk;
   }
 `

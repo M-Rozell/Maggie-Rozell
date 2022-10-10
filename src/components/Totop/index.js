@@ -3,7 +3,8 @@ import React from 'react';
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { ArrowUpContainer, ArrowIcon } from './ToTopElements';
 
-const ToTop = ({CloseKiraVideo}) => {
+
+const ToTop = ({ CloseKiraVideo }) => {
 
   const goToTop = () => {
     window.scrollTo({
@@ -13,12 +14,11 @@ const ToTop = ({CloseKiraVideo}) => {
     CloseKiraVideo()
   };
 
+
   return (
 
     <ArrowUpContainer>
-
       <ArrowIcon onClick={goToTop}> <TbArrowBigUpLines /> </ArrowIcon>
-
     </ArrowUpContainer>
   )
 };

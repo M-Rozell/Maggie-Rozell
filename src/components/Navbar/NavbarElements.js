@@ -1,6 +1,6 @@
 
-import { Link as LinkScroll } from 'react-scroll';
 import styled from 'styled-components';
+import { Link as LinkScroll } from 'react-scroll';
 
 
 export const Nav = styled.nav`
@@ -17,10 +17,11 @@ export const Nav = styled.nav`
   top: 0;
   z-index:20;
 
-@media screen and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
 }
 `
+
 
 export const NavbarContainer = styled.div`
   position: relative;
@@ -34,10 +35,11 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `
 
+
 export const MobileIcon = styled.div`
   display: none;
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: -15%;
@@ -49,6 +51,7 @@ export const MobileIcon = styled.div`
 }
 `
 
+
 export const CatIcon = styled.div`
   position: absolute;
   top: 33px;
@@ -57,9 +60,9 @@ export const CatIcon = styled.div`
   font-size: 2rem;
   z-index: 21;
 
-&:hover {
-  color: aqua;
-  cursor: pointer;
+  &:hover {
+    color: aqua;
+    cursor: pointer;
 }
 ` 
 
@@ -70,16 +73,18 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
 }
 `
+
 
 export const NavItem = styled.li`
   height: 80px;
   display: flex;
   align-items: center;
 `
+
 
 export const NavLinks = styled(LinkScroll)`
   appearance: button;
@@ -107,15 +112,15 @@ export const NavLinks = styled(LinkScroll)`
   white-space: nowrap;
   padding: 4px 25px;
 
-&:hover {
-  text-decoration: none;
-  color: cornsilk;  
+  &:hover {
+    text-decoration: none;
+    color: cornsilk;  
 }
 
-&:active {
-  color: #AE8625;
-  box-shadow: cornsilk 2px 2px 0 0, #AE8625 2px 2px 0 1px;
-  transform: translate(2px, 2px);
+  &:active {
+    color: #AE8625;
+    box-shadow: cornsilk 2px 2px 0 0, #AE8625 2px 2px 0 1px;
+    transform: translate(2px, 2px);
 }
 `
 

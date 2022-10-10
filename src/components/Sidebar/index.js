@@ -13,7 +13,6 @@ const Sidebar = ({ CloseSidebar, OpenNavIcon, CloseKiraVideo }) => {
     return (
         <>
             <SidebarContainer >
-
                 <SidebarWrapper>
 
                     <SidebarMenu>

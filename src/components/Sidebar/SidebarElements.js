@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
-import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { Link as LinkScroll } from 'react-scroll';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 
 export const SidebarContainer = styled.aside`
@@ -20,23 +20,28 @@ export const SidebarContainer = styled.aside`
     top: 10px;
     right: 10px;
 
-@media screen and (min-width: 768px){
-    display: none;
+    @media screen and (min-width: 768px){
+        display: none;
 }
 
-@media screen and (min-width: 281px){
-    width: 350px;
-    right: 20px;
+    @media screen and (min-width: 281px){
+        width: 350px;
+        right: 20px;
 }
 `
+
+
 export const SidebarWrapper = styled.div`
     display: flex;
     flex-direction: row;
     margin-right: 25px;
 `
+
+
 export const SidebarCloseIcon = styled(AiOutlineCloseCircle)`
     color: #f0f9db;
 `
+
 
 export const SidebarIcon = styled.div`
     position: absolute;
@@ -48,10 +53,12 @@ export const SidebarIcon = styled.div`
     outline: none;
 `
 
+
 export const SidebarMenu = styled.ul`
     margin: 7px;
     padding: 0;
 `
+
 
 export const SidebarLink = styled(LinkScroll)`
     font-size: 1rem;
@@ -62,11 +69,11 @@ export const SidebarLink = styled(LinkScroll)`
     color: #f0f9db;
     cursor: pointer;
 
-&:hover {
-    color: #AE8625;
+    &:hover {
+        color: #AE8625;
 }
 
-@media screen and (min-width: 281px) {
-    font-size: 1.2rem;
+    @media screen and (min-width: 281px) {
+        font-size: 1.2rem;
 }
 `

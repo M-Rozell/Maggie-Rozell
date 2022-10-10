@@ -1,14 +1,15 @@
 
-import React, { useState, useEffect } from 'react';
-import TaskForm from './TaskForm';
 import Tasks from './Tasks';
+import TaskForm from './TaskForm';
+import React, { useState, useEffect } from 'react';
+
 
 const LOCAL_STORAGE_KEY = 'taskApp.tasks';
 
 function TaskList() {
+
   const [tasks, setTasks] = useState(
     JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []);
-
 
 
   //store Tasks
@@ -46,6 +47,8 @@ function TaskList() {
     })
     setTasks(updatedTasks);
   };
+
+
 
   return (
 

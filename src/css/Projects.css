@@ -10,18 +10,19 @@
     background-repeat: no-repeat;
 }
 
-  .projectsTitle {
+
+.projectsTitle {
     font-family: 'Figtree', sans-serif;
     position: relative;
     color: cornsilk;
     font-family: 'Kanit', sans-serif;
     font-weight: 800;
-    top: 50px;
+    top: 2.5rem;
     margin-left: 5px;
-    font-size: 2rem;
-    /* font-size: clamp(2rem, 10vw, 8rem); */
+    /* font-size: 2rem; */
+    font-size: clamp(2rem, 1rem + 5vw, 8rem);
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .projectsTitle {
         font-size: 3rem;
     }
@@ -35,7 +36,8 @@
     .projectsTitle {
         font-size: 15rem;
     }
-}
+} */
+
 
 .projectsBtns {
     position: absolute;
@@ -44,27 +46,15 @@
     margin-top: 100px;
     margin-left: 10px;
 }
-@media screen and (min-width: 1440px) {
-    .projectsBtns {
-        margin-left: 20px;
+    @media screen and (min-width: 1440px) {
+        .projectsBtns {
+            margin-left: 20px;
     }
 }
-@media screen and (min-width: 2560px) {
-    .projectsBtns {
-        margin-left: 50px;
+    @media screen and (min-width: 2560px) {
+        .projectsBtns {
+            margin-left: 50px;
     }
-}
-
-.projectModals {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    /* margin-bottom: 20px; */
 }
 
 
@@ -80,16 +70,16 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
-@media screen and (min-width: 1440px) {
-    .tttBtn {
-        font-size: 2rem;
-        padding: .3rem 3rem;
+    @media screen and (min-width: 1440px) {
+        .tttBtn {
+            font-size: 2rem;
+            padding: .3rem 3rem;
     }
 }
-@media screen and (min-width: 2560px) {
-    .tttBtn {
-        font-size: 3rem;
-        border: 3px solid cornsilk;
+    @media screen and (min-width: 2560px) {
+        .tttBtn {
+            font-size: 3rem;
+            border: 3px solid cornsilk;
     }
 }
 
@@ -98,6 +88,7 @@
     border: 1px solid #F7EF8A;
     transform: scale(1.1);
 }
+
 
 .taskBtn {
     background: transparent;
@@ -110,16 +101,16 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
-@media screen and (min-width: 1440px) {
-    .taskBtn {
-        font-size: 2rem;
-        padding: .3rem 3rem;
+    @media screen and (min-width: 1440px) {
+        .taskBtn {
+            font-size: 2rem;
+            padding: .3rem 3rem;
     }
 }
-@media screen and (min-width: 2560px) {
-    .taskBtn {
-        font-size: 3rem;
-        border: 3px solid cornsilk;
+    @media screen and (min-width: 2560px) {
+        .taskBtn {
+            font-size: 3rem;
+            border: 3px solid cornsilk;
     }
 }
 
@@ -128,6 +119,7 @@
     border: 1px solid #F7EF8A;
     transform: scale(1.1);
 }
+
 
 .weatherBtn {
     background: transparent;
@@ -140,16 +132,16 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
-@media screen and (min-width: 1440px) {
-    .weatherBtn {
-        font-size: 2rem;
-        padding: .3rem 3rem;
+    @media screen and (min-width: 1440px) {
+        .weatherBtn {
+            font-size: 2rem;
+            padding: .3rem 3rem;
     }
 }
-@media screen and (min-width: 2560px) {
-    .weatherBtn {
-        font-size: 3rem;
-        border: 3px solid cornsilk;
+    @media screen and (min-width: 2560px) {
+        .weatherBtn {
+            font-size: 3rem;
+            border: 3px solid cornsilk;
     }
 }
 
@@ -158,6 +150,7 @@
     border: 1px solid #F7EF8A;
     transform: scale(1.1);
 }
+
 
 .bootstrapBtn {
     background: transparent;
@@ -170,16 +163,16 @@
     background-color: rgb(40, 40, 40, 0.6);
     margin-top: 10px;
 }
-@media screen and (min-width: 1440px) {
-    .bootstrapBtn {
-        font-size: 2rem;
-        padding: .3rem 3rem;
+    @media screen and (min-width: 1440px) {
+        .bootstrapBtn {
+            font-size: 2rem;
+            padding: .3rem 3rem;
     }
 }
-@media screen and (min-width: 2560px) {
-    .bootstrapBtn {
-        font-size: 3rem;
-        border: 3px solid cornsilk;
+    @media screen and (min-width: 2560px) {
+        .bootstrapBtn {
+            font-size: 3rem;
+            border: 3px solid cornsilk;
     }
 }
 
@@ -188,5 +181,3 @@
     border: 1px solid #F7EF8A;
     transform: scale(1.1);
 }
-
-

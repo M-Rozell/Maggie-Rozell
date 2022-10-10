@@ -1,12 +1,13 @@
 
 import React from "react";
 import "../css/About.css";
-import { AiOutlineMail } from "react-icons/ai";
-import { ImLinkedin } from "react-icons/im";
+import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
+import { ImLinkedin } from "react-icons/im";
+import { AiOutlineMail } from "react-icons/ai";
 import pdf from "../files/Maggie-Rozell-Resume.pdf";
 import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/HeroElements"; //css in HeroElements
-import { motion } from "framer-motion";
+
 
 const textAnimate = {
     offscreen: { y: 100, opacity: 0 },

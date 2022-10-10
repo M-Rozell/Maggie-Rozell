@@ -7,7 +7,7 @@ const range = (start, end) => {
     return Array(end - start + 1).fill().map((_, idx) => start + idx)
 };
 
-const rangeResult = range(1, 10);
+const rangeResult = range(1, 20);
 
 const listAnimations = rangeResult.map((e, i) =>
     <li
