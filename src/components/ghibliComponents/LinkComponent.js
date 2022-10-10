@@ -6,7 +6,7 @@ import { AiOutlineCloseCircle } from 'react-icons/ai';
 const LinkComponent = () => {
   return (
     <>
-      <GLink className="ghibliLink" to="/#Projects"><AiOutlineCloseCircle /></GLink>
+      <GLink className="ghibliLink" to="/maggie-rozell/#Projects"><AiOutlineCloseCircle /></GLink>
     </>
   )
 };
