@@ -27,23 +27,31 @@ export const NavbarContainer = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  top: 15%;
-  height: 70px;
+  align-items: center;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0;
   max-width: 1100px;
 `
 
+export const MobilIconWrapper = styled.div`
+display: none;
+@media screen and (max-width: 768px) {
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+`
 
 export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: -15%;
-    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     transform: translate(-100%, 15%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -54,7 +62,7 @@ export const MobileIcon = styled.div`
 
 export const CatIcon = styled.div`
   position: absolute;
-  top: 33px;
+  top: 35px;
   left: 5px;
   color: cornsilk;
   font-size: 2rem;
@@ -67,11 +75,12 @@ export const CatIcon = styled.div`
 ` 
 
 
-export const NavMenu = styled.ul`
+export const NavMenu = styled.div`
+width: 100%;
+position: relative;
   display: flex;
   align-items: center;
-  list-style: none;
-  text-align: center;
+  justify-content: center;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -79,9 +88,10 @@ export const NavMenu = styled.ul`
 `
 
 
-export const NavItem = styled.li`
+export const NavItem = styled.div`
   height: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
 `
 

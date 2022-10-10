@@ -1,7 +1,5 @@
 
 .weatherAppContainer {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,27 +8,22 @@
 
 .weatherWrapper {
     width: 75vw;
-    height: 75vh;
+    height: 60vh;
     background: url('../images/bellingrath-gardens-alabama-landscapeTwo.jpg') no-repeat center center/cover;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 6px;
     position: relative;
+    margin-top: 3rem;
 }
     @media screen and (min-width: 768px) {
         .weatherWrapper {
-            width: 55vw;
-            height: 75vh;
+            width: 40vw;
+            height: 65vh;
             margin-top: 1.5rem;
     }
 }
-    @media screen and (min-width: 1440px) {
-        .weatherWrapper {
-            width: 40vw;
-            height: 65vh;
-            margin-top: 1rem;
-    }
-}
+    
     @media screen and (min-width: 2560px) {
         .weatherWrapper {
             width: 40vw;
@@ -135,7 +128,7 @@
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .75rem;
 }
     @media screen and (min-width: 768px) {
         .day{
@@ -175,17 +168,17 @@
 }
     @media screen and (min-width: 768px) {
         .paraLocation{
-            font-size: 1.75rem;
+            font-size: 1.5rem;
     }
 }
     @media screen and (min-width: 1440px) {
         .paraLocation{
-            font-size: 3rem;
+            font-size: 1.75rem;
     }
 }
     @media screen and (min-width: 2560px) {
         .paraLocation{
-            font-size: 4rem;
+            font-size: 3rem;
     }
 }
 
@@ -197,17 +190,17 @@
 }
     @media screen and (min-width: 768px) {
         .paraSky{
-            font-size: 1.75rem;
+            font-size: 1.5rem;
     }
 }
     @media screen and (min-width: 1440px) {
         .paraSky{
-            font-size: 3rem;
+            font-size: 1.75rem;
     }
 }
     @media screen and (min-width: 2560px) {
         .paraSky{
-            font-size: 4rem;
+            font-size: 3rem;
     }
 }
 
@@ -219,17 +212,17 @@
 }
     @media screen and (min-width: 768px) {
         .tempHome{
-            font-size: 5.5rem;
+            font-size: 6rem;
     }
 }
     @media screen and (min-width: 1440px) {
         .tempHome{
-            font-size: 8rem;
+            font-size: 7rem;
     }
 }
     @media screen and (min-width: 2560px) {
         .tempHome{
-            font-size: 10rem;
+            font-size: 8rem;
     }
 }
 
@@ -239,11 +232,11 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     background: rgb(40, 40, 40, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.8);
-    padding: 5px;
+    padding: 3px;
     margin-bottom: 10px;
 }
     @media screen and (min-width: 2560px) {

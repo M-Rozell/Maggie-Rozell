@@ -42,7 +42,7 @@ const Projects = () => {
 
       <div className='projectsTitle'>PROJECTS</div>
 
-      <div className='projectsModalContent'>
+      
 
         <div className='projectsBtns'>
           {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
@@ -50,7 +50,7 @@ const Projects = () => {
           {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
           {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>}
         </div>
-
+<div className='projectsModalContent'>
         <div className='projectModals'>
           {tttmodal && <TTTModal closeModal={setTTTModal} openBtn={setBtn} />}
           {task && <TaskModal closeModal={setTask} openBtn={setBtn} />}

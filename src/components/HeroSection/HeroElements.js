@@ -21,6 +21,7 @@ export const HeroContainer = styled.div`
   background-size: cover;
   border-left: 2px solid cornsilk;
   border-right: 2px solid cornsilk;
+  border-bottom: 2px solid cornsilk;
   margin: 0;
   padding: 0;
 `
@@ -28,7 +29,7 @@ export const HeroContainer = styled.div`
 
 export const TextWrapper = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: relative;
   top: 0;
   left: 0;
@@ -41,7 +42,7 @@ export const NameP1 = styled.p`
   font-family: 'IM Fell Great Primer SC', serif;
   /* font-size: 2rem; */
   font-size: clamp(2rem, 1rem + 5vw, 7rem);
-  bottom: .75rem;
+  bottom: 2rem;
   left: clamp(.5rem, 1rem + 5vw, 1.25rem);
   animation-name: ${fadeIn};
   animation-duration: 5s;
