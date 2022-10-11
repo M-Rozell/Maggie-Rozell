@@ -19,11 +19,14 @@ export const HeroContainer = styled.div`
   background-repeat: no-repeat;
   background-position: center center fixed;
   background-size: cover;
-  border-left: 2px solid cornsilk;
-  border-right: 2px solid cornsilk;
-  border-bottom: 2px solid cornsilk;
   margin: 0;
   padding: 0;
+
+    @media screen and (min-width: 768px) {
+      border-left: 2px solid cornsilk;
+      border-right: 2px solid cornsilk;
+      border-bottom: 2px solid cornsilk;
+  }
 `
 
 
@@ -42,7 +45,7 @@ export const NameP1 = styled.p`
   font-family: 'IM Fell Great Primer SC', serif;
   /* font-size: 2rem; */
   font-size: clamp(2rem, 1rem + 5vw, 8rem);
-  bottom: 3.5rem;
+  bottom: 5.5rem;
   left: clamp(.5rem, 1rem + 5vw, 1.25rem);
   animation-name: ${fadeIn};
   animation-duration: 5s;
@@ -61,6 +64,14 @@ export const NameP1 = styled.p`
 
 `
 
+export const NameP2 = styled.p`
+  position: absolute;
+  color: #F7EF8A;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: clamp(.5rem, .75rem + 1vw, 2rem);
+  bottom: 5rem;
+  left: clamp(.5rem, 1rem + 5vw, 1.25rem);
+`
 
 
 //React Icons for About Page//

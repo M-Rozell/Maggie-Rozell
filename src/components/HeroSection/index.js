@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HeroContainer, TextWrapper, NameP1 } from './HeroElements';
+import { HeroContainer, TextWrapper, NameP1, NameP2 } from './HeroElements';
 
 
 const HeroSection = () => {
@@ -10,6 +10,7 @@ const HeroSection = () => {
       <TextWrapper>
 
         <NameP1 className="name fade-in-text">Maggie Rozell</NameP1>
+        <NameP2 className="name fade-in-text">{`{webDesigner}`}</NameP2>
 
       </TextWrapper>
     </HeroContainer>
