@@ -71,6 +71,8 @@ export const NameP2 = styled.p`
   font-size: clamp(.5rem, .75rem + 1vw, 2rem);
   bottom: 5rem;
   left: clamp(.5rem, 1rem + 5vw, 1.25rem);
+  animation-name: ${fadeIn};
+  animation-duration: 5s;
 `
 
 
