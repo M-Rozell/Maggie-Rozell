@@ -21,6 +21,7 @@ export const HeroContainer = styled.div`
   background-size: cover;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 
     @media screen and (min-width: 768px) {
       border-left: 2px solid cornsilk;
