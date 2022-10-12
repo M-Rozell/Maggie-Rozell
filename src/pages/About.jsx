@@ -17,21 +17,21 @@ const textAnimate = {
 
 const About = () => {
 
-    const ref = useRef(null)
-    const isInView = useInView(ref)
+    // const ref = useRef(null)
+    // const isInView = useInView(ref, {once: true})
 
-    useEffect(() => {
-        console.log("Element is in view: ", isInView)
-      }, [isInView])
+    // useEffect(() => {
+    //     console.log("Element is in view: ", isInView)
+    //   }, [isInView])
 
     return (
 
         <div className="aboutContainer" id="About" >
             <motion.div className="aboutWrapper"
-                ref={ref}
+                // ref={ref}
                 initial={"offscreen"}
                 whileInView={"onscreen"}
-                viewport={{ once: true, amount: 1 }}
+                viewport={{ once: true, amount: 0 }}
                 transition={{ staggerChildren: 0.5 }}>
 
                 <div className="aboutTitleContainer">
