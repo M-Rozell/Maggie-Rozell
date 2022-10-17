@@ -1,7 +1,7 @@
 
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import "../css/About.css";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";
 import { AiOutlineMail } from "react-icons/ai";
@@ -17,11 +17,17 @@ const textAnimate = {
 
 const About = () => {
 
+const ref = useRef(null)
+const isInView = useInView(ref)
+useEffect(() => {
+    console.log("Element is in view: ", isInView)
+  }, [isInView])
 
     return (
-
+<>
         <div className="aboutContainer" id="About" >
             <motion.div className="aboutWrapper"
+            ref={ref}
                 initial={"offscreen"}
                 whileInView={"onscreen"}
                 viewport={{ once: true, amount: 0 }}
@@ -93,6 +99,7 @@ const About = () => {
                 </div>
             </motion.div>
         </div>
+        </>
     )
 };
 
