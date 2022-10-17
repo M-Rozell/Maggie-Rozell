@@ -10,8 +10,8 @@ import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/Her
 
 
 const textAnimate = {
-    offscreen: { y: 100, opacity: 0 },
-    onscreen: { y: 0, opacity: 1, transition: { duration: 1, type: "spring", bounce: 0.5 } }
+    offscreen: { x: 100, opacity: 0 },
+    onscreen: { x: 2, opacity: 1, transition: { duration: 1, type: "spring", bounce: 0.5 } }
 };
 
 
