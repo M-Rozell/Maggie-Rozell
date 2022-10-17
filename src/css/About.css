@@ -25,6 +25,12 @@
 }
 
 
+.aboutTtileContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+
 .aboutTitle {
   position: relative;
   margin-left: 1rem;
