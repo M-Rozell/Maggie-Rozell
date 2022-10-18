@@ -10,7 +10,7 @@ import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/Her
 
 
 const textAnimate = {
-    offscreen: { y: 100, opacity: 0 },
+    offscreen: { y: 50, opacity: 0 },
     onscreen: { y: 0, opacity: 1, transition: { duration: 1, type: "spring", bounce: 0.5 } }
 };
 
@@ -35,10 +35,10 @@ useEffect(() => {
                 transition={{ staggerChildren: 0.5 }}>
 
                 <div className="aboutTitleContainer">
-                    <motion.h3 className="aboutTitle"
+                    <motion.div className="aboutTitle"
 
                         variants={textAnimate}
-                    >About</motion.h3>
+                    >About</motion.div>
                 </div>
 
                 <div className="resume" >

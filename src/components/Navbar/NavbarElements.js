@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   position: sticky;
   top: 0;
   z-index:20;
@@ -83,20 +83,20 @@ export const CatIcon = styled.div`
 
 
 export const NavMenu = styled.div`
-width: 100%;
-position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
 
-  @media screen and (max-width: 768px) {
-    display: none;
-}
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 
 export const NavItem = styled.div`
-  height: 80px;
+  height: 70px; //was 80
   display: flex;
   justify-content: center;
   align-items: center;
