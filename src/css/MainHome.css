@@ -4,7 +4,6 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     max-height: 100vh;
-    
 }
 
  .homeSections {

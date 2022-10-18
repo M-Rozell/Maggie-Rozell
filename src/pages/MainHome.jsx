@@ -42,7 +42,7 @@ const MainHome = () => {
   return (
 
     <>
-<div className='siteContainer homeSections' >
+<div className='siteContainer' >
   
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
