@@ -2,7 +2,7 @@
 html {
     overflow-y: scroll;
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
     max-height: 100vh;
     
 }
