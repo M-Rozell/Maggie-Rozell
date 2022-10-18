@@ -12,9 +12,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
   overflow-y: hidden;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,13 +21,12 @@
 }
 
 
-.aboutWrapper {
-  position: relative;
-  overflow: hidden;
+.aboutContainerWrapper {
+  width: auto;
+  height: auto;
 }
 
-
-.aboutTtileContainer {
+.aboutWrapper {
   position: relative;
   overflow: hidden;
 }

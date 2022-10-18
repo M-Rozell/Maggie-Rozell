@@ -39,20 +39,19 @@ export const NavbarContainer = styled.div`
 `
 
 export const MobilIconWrapper = styled.div`
-display: none;
-@media screen and (max-width: 768px) {
-width: 100%;
-height: 60px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  @media screen and (min-width: 768px) {
+  display: none;
 }
 `
 
 export const MobileIcon = styled.div`
-  display: none;
-
-  @media screen and (max-width: 768px) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -60,6 +59,10 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     color: #F7EF8A;
+  
+
+  @media screen and (min-width: 768px) {
+    display: none;
 }
 `
 
