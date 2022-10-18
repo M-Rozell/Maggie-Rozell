@@ -1,5 +1,7 @@
 
-html {scroll-snap-type: y mandatory}
+.siteContainer {
+    scroll-snap-type: y mandatory;
+}
 
-.homeSections {scroll-snap-align: start}
+.siteContainer .homeSections {scroll-snap-align: start}
     
