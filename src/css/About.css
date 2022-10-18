@@ -34,7 +34,7 @@
 
 .aboutTitle {
   position: relative;
-  margin-left: 1rem;
+  margin-left: .75rem;
   top: 1rem;
   color: cornsilk;
   background: -webkit-linear-gradient(#AE8625, #F7EF8A, #D2AC47);
@@ -238,7 +238,7 @@
 
 .resumeLink {
   color: #F7EF8A;
-  margin-left: 10px;
+  margin-left: 8px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
@@ -246,7 +246,7 @@
 }
   @media screen and (min-width: 390px) {
     .resumeLink {
-      font-size: .85rem;
+      font-size: .95rem;
   }
 }
   @media screen and (min-width: 768px) {
@@ -266,7 +266,7 @@
 
 .portfolioLink {
   color: #F7EF8A;
-  margin-right: 10px;
+  margin-right: 8px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
@@ -274,7 +274,7 @@
 }
   @media screen and (min-width: 390px) {
     .portfolioLink {
-      font-size: .85rem;
+      font-size: .95rem;
   }
 }
   @media screen and (min-width: 768px) {
