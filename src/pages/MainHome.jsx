@@ -50,7 +50,7 @@ const MainHome = () => {
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>}
       
-        <section>
+        <section className='homeSections'>
           <HeroSection />
         </section>
 
