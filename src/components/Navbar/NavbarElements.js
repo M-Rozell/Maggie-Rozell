@@ -17,6 +17,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index:20;
 
+
   @media screen and (min-width: 768px) {
     border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   }

@@ -1,7 +1,12 @@
 
-.siteContainer {
+html {
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
     scroll-snap-type: y mandatory;
+    max-height: 100vh;
 }
 
-.siteContainer .homeSections {scroll-snap-align: start}
+.homeSections {
+    scroll-snap-align: start;
+}
     
