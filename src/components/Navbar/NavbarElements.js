@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* font-size: 1rem; */
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index:20;
@@ -21,9 +21,9 @@ export const Nav = styled.nav`
     border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   }
 
-  /* @media screen and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-} */
+}
 `
 
 
@@ -35,7 +35,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0;
-  /* max-width: 1100px; */
+  max-width: 1100px;
 `
 
 export const MobilIconWrapper = styled.div`
@@ -96,7 +96,7 @@ export const NavMenu = styled.div`
 
 
 export const NavItem = styled.div`
-  height: 70px; //was 80
+  height: 80px; //was 80
   display: flex;
   justify-content: center;
   align-items: center;

@@ -10,7 +10,7 @@ import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/Her
 
 
 const textAnimate = {
-    offscreen: { y: 50, opacity: 0 },
+    offscreen: { y: 100, opacity: 0 },
     onscreen: { y: 0, opacity: 1, transition: { duration: 1, type: "spring", bounce: 0.5 } }
 };
 
@@ -25,13 +25,13 @@ useEffect(() => {
 
     return (
 <>
-        <div className="aboutContainer" id="About" >
-            <div className="aboutContainerWrapper" ref={ref}>
+        <div className="aboutContainer" id="About" ref={ref}>
+            <div className="aboutContainerWrapper" >
             <motion.div className="aboutWrapper"
             
                 initial={"offscreen"}
                 whileInView={"onscreen"}
-                viewport={{ once: true, amount: 1 }}
+                viewport={{ once: true, amount: 0 }}
                 transition={{ staggerChildren: 0.5 }}>
 
                 <div className="aboutTitleContainer">

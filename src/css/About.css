@@ -47,24 +47,24 @@
 }
   @media screen and (min-width: 768px) {
     .aboutTitle {
-      font-size: 5rem;
+      font-size: 4rem;
   }
 }
   @media screen and (min-width: 1024px) {
     .aboutTitle {
-      font-size: 6rem;
+      font-size: 4.25rem;
       margin-left: 3rem;
   }
 }
   @media screen and (min-width: 1440px) {
     .aboutTitle {
-      font-size: 8rem;
+      font-size: 4.5rem;
       margin-left: 7rem;
   }
 }
   @media screen and (min-width: 2560px) {
     .aboutTitle {
-      font-size: 10rem;
+      font-size: 5rem;
       margin-left: 14rem;
   }
 }
@@ -143,30 +143,30 @@
   }
     @media screen and (min-width: 390px) {
       .pObjective {
-        font-size: .75rem;
+        font-size: .65rem;
     }
   }
     @media screen and (min-width: 768px) {
       .pObjective {
-        font-size: 1rem;
+        font-size: .75rem;
     }
   }
  
 
 .txtCertifications {
   color: cornsilk;
-  font-size: .75rem;
+  font-size: .65rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
   @media screen and (min-width: 390px) {
     .txtCertifications {
-      font-size: 1rem;
+      font-size: .75rem;
   }
 }
   @media screen and (min-width: 768px) {
     .txtCertifications {
-      font-size: 1.15rem;
+      font-size: .85rem;
   }
 }
 
@@ -182,7 +182,7 @@
 }
   @media screen and (min-width: 390px) {
     .certList {
-      font-size: .75rem;
+      font-size: .65rem;
   }
 }
   @media screen and (min-width: 768px) {
@@ -194,18 +194,18 @@
 
 .txtEducation {
   color: cornsilk;
-  font-size: .75rem;
+  font-size: .65rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
   @media screen and (min-width: 390px) {
     .txtEducation {
-      font-size: 1rem;
+      font-size: .75rem;
   }
 }
   @media screen and (min-width: 768px) {
     .txtEducation {
-      font-size: 1.15rem;
+      font-size: .85rem;
   }
 }
 
@@ -226,7 +226,7 @@
 }
   @media screen and (min-width: 390px) {
     .educationList {
-      font-size: .75rem;
+      font-size: .65rem;
   }
 }
   @media screen and (min-width: 768px) {
@@ -242,16 +242,16 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: .75rem;
 }
   @media screen and (min-width: 390px) {
     .resumeLink {
-      font-size: 1.25rem;
+      font-size: .85rem;
   }
 }
   @media screen and (min-width: 768px) {
     .resumeLink {
-      font-size: 1.75rem;
+      font-size: 1.25rem;
   }
 }
 
@@ -270,16 +270,16 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: .75rem;
 }
   @media screen and (min-width: 390px) {
     .portfolioLink {
-      font-size: 1.25rem;
+      font-size: .85rem;
   }
 }
   @media screen and (min-width: 768px) {
     .portfolioLink {
-      font-size: 1.75rem;
+      font-size: 1.25rem;
   }
 }
 

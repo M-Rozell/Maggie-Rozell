@@ -84,16 +84,16 @@ export const LinkBtns = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: .85rem;
+  font-size: .75rem;
   padding: 0;
   margin: 0;
 
     @media screen and (min-width: 390px) {
-      font-size: 1.25rem;
+      font-size: .95rem;
   }
     
     @media screen and (min-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
   }
 `
 
