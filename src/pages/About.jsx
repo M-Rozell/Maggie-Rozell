@@ -31,7 +31,7 @@ useEffect(() => {
             
                 initial={"offscreen"}
                 whileInView={"onscreen"}
-                viewport={{ once: true, amount: 0 }}
+                viewport={{ once: true, amount: 1 }}
                 transition={{ staggerChildren: 0.5 }}>
 
                 <div className="aboutTitleContainer">
