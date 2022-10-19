@@ -1,12 +1,10 @@
 
-html {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+html{
     scroll-snap-type: y mandatory;
-    max-height: 100vh;
 }
 
- .homeSections {
-    scroll-snap-align: start;
+
+.homeSections {
+    scroll-snap-align: center;
 }
     

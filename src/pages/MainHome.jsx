@@ -11,6 +11,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { CatIcon } from '../components/Navbar/NavbarElements';
 
 
+
+
 const MainHome = () => {
 
   const [cat, setCat] = useState(true)
@@ -42,7 +44,7 @@ const MainHome = () => {
   return (
 
     <>
-<div className='siteContainer' >
+
   
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
@@ -71,7 +73,7 @@ const MainHome = () => {
             {openKira && <Kira />}
           </div>
         </section>
-      </div>
+      
     </>
 
   )
