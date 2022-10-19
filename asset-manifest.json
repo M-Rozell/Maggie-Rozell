@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maggie-rozell/static/css/main.4dea31d7.css",
+    "main.css": "/maggie-rozell/static/css/main.5c70d5a6.css",
     "main.js": "/maggie-rozell/static/js/main.d3c7ff41.js",
     "static/media/KiraTrim.mp4": "/maggie-rozell/static/media/KiraTrim.7a8601411d5ed63b010c.mp4",
     "static/media/concrete.jpg": "/maggie-rozell/static/media/concrete.3b79b54e23784d7f7ca8.jpg",
@@ -10,11 +10,11 @@
     "static/media/Maggie-Rozell-Resume.pdf": "/maggie-rozell/static/media/Maggie-Rozell-Resume.44d80018713d70928f34.pdf",
     "static/media/Nsnap4.jpg": "/maggie-rozell/static/media/Nsnap4.d5902edc5244e1d2b57f.jpg",
     "index.html": "/maggie-rozell/index.html",
-    "main.4dea31d7.css.map": "/maggie-rozell/static/css/main.4dea31d7.css.map",
+    "main.5c70d5a6.css.map": "/maggie-rozell/static/css/main.5c70d5a6.css.map",
     "main.d3c7ff41.js.map": "/maggie-rozell/static/js/main.d3c7ff41.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dea31d7.css",
+    "static/css/main.5c70d5a6.css",
     "static/js/main.d3c7ff41.js"
   ]
 }
