@@ -45,13 +45,14 @@ const MainHome = () => {
 
     <>
 
-  
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
       {cat && <CatIcon onClick={() => { setOpenKira(true) }} >
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>}
-      
+
+<div className='mainHomeContainer'>      
+
         <section className='homeSections'>
           <HeroSection />
         </section>
@@ -67,13 +68,15 @@ const MainHome = () => {
         <section className='homeSections'>
           <Skills CloseKiraVideo={setOpenKira} />
         </section>
-
-        <section className='homeSections'>
-          <div ref={videoSection}>
-            {openKira && <Kira />}
-          </div>
-        </section>
       
+      </div>
+
+      <section className='homeSections'>
+        <div ref={videoSection}>
+          {openKira && <Kira />}
+        </div>
+      </section>
+
     </>
 
   )
