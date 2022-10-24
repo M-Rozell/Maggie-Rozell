@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   width: 100%;
   overflow-x: hidden;
   background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
-  /* border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
+  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   height: 70px;
   margin-top: -70px;
   display: flex;
@@ -19,9 +19,9 @@ export const Nav = styled.nav`
   z-index:20;
 
 
-  /* @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
-  } */
+  }
 
   /* @media screen and (max-width: 960px) {
     transition: 0.8s all ease;

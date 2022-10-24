@@ -45,7 +45,6 @@ const MainHome = () => {
 
     <>
 
-      
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
       {cat && <CatIcon onClick={() => { setOpenKira(true) }} >
