@@ -1,10 +1,12 @@
 
 html{
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 #mainHomeContainer {
 background-color: black;
+
 }
 
 .homeSections {
