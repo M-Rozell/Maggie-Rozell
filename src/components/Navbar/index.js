@@ -25,6 +25,8 @@ const MainNavbar = ({ CloseKiraVideo }) => {
     window.addEventListener('scroll', changeNav)
   }, []);
 
+  
+  
   const handleMobileIcon = () => {
     setSidebar(true)
     setNavIcon(false)

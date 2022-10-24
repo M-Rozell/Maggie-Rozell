@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
   border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   height: 70px;
-  /* margin-top: -70px; */
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@ export const MobileIcon = styled.div`
 
 export const CatIcon = styled.div`
   position: absolute;
-  top: 105px;
+  top: 35px;
   left: 5px;
   color: cornsilk;
   font-size: 2rem;
