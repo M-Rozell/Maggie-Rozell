@@ -8,6 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import pdf from "../files/Maggie-Rozell-Resume.pdf";
 import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/HeroElements"; //css in HeroElements
 
+import MainNavbar from "../components/Navbar";
 
 const textAnimate = {
     offscreen: { y: 100, opacity: 0 },

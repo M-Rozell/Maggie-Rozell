@@ -7,23 +7,23 @@ import { Nav, NavbarContainer, MobilIconWrapper, MobileIcon, NavMenu, NavItem, N
 
 const MainNavbar = ({ CloseKiraVideo }) => {
 
-  const [scrollNav, setScrollNav] = useState(false);
+  // const [scrollNav, setScrollNav] = useState(false); <Nav scrollNav={scrollNav}></Nav>
   const [sidebar, setSidebar] = useState(false);
   const [navIcon, setNavIcon] = useState(true);
 
 
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true)
-    } else {
-      setScrollNav(false)
-    }
-  };
+  // const changeNav = () => {
+  //   if (window.scrollY >= 80) {
+  //     setScrollNav(true)
+  //   } else {
+  //     setScrollNav(false)
+  //   }
+  // };
 
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeNav)
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeNav)
+  // }, []);
 
   
   
@@ -35,7 +35,7 @@ const MainNavbar = ({ CloseKiraVideo }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav>
 
         <NavbarContainer>
 

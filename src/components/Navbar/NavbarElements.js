@@ -5,8 +5,8 @@ import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
   width: 100%;
-  background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
-  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
+  /* background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
+  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
   height: 70px;
   margin-top: -70px;
   display: flex;
@@ -18,9 +18,9 @@ export const Nav = styled.nav`
   z-index:20;
 
 
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
-  }
+  } */
 
   /* @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -106,7 +106,7 @@ export const NavItem = styled.div`
 
 export const NavLinks = styled(LinkScroll)`
   appearance: button;
-  background-color: rgb(40, 40, 40, 0.6);
+  background-color: rgb(40, 40, 40, 0.8);
   background-image: none;
   border: 1px solid #F7EF8A;
   border-radius: 2px;

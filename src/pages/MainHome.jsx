@@ -43,7 +43,7 @@ const MainHome = () => {
 
   return (
 
-    <>
+    <><div id='mainHomeContainer'>
 
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
@@ -51,9 +51,9 @@ const MainHome = () => {
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>}
 
-      <div id='mainHomeContainer'>
+      
 
-        <section className='homeSections'>
+       <section className='homeSections'> 
           <HeroSection />
         </section>
 
