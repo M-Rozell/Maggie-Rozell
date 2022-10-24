@@ -58,11 +58,13 @@ const MainHome = () => {
         </section>
 
         <section className='homeSections'>
-          <About />
+          <Projects />
+          
         </section>
 
         <section className='homeSections'>
-          <Projects />
+          
+          <About />
         </section>
 
         <section className='homeSections'>
