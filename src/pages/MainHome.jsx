@@ -45,6 +45,7 @@ const MainHome = () => {
 
     <>
 
+      
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
       {cat && <CatIcon onClick={() => { setOpenKira(true) }} >
@@ -71,7 +72,7 @@ const MainHome = () => {
       
       </div>
 
-      <section className='homeSections'>
+      <section>
         <div ref={videoSection}>
           {openKira && <Kira />}
         </div>

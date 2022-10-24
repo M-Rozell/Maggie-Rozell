@@ -5,6 +5,7 @@ import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
   width: 100%;
+  overflow-x: hidden;
   background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
   border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   height: 70px;
@@ -97,7 +98,7 @@ export const NavMenu = styled.div`
 
 
 export const NavItem = styled.div`
-  height: 80px; //was 80
+  height: 60px; //was 80
   display: flex;
   justify-content: center;
   align-items: center;

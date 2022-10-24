@@ -1,15 +1,16 @@
-
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
+html {}
 
 #mainHomeContainer {
-background-color: black;
-
+    width: 100%;
+    scroll-snap-type: y mandatory;
+  max-height: 100vh;
+  overflow-y: scroll;
+    background-color: black;
+    
+    
 }
 
 .homeSections {
     scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
-    
