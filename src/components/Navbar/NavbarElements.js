@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
   border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   height: 70px;
-  margin-top: -70px;
+  /* margin-top: -70px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,9 +22,9 @@ export const Nav = styled.nav`
     border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
   }
 
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-}
+} */
 `
 
 
@@ -36,7 +36,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0;
-  max-width: 1100px;
+  /* max-width: 1100px; */
 `
 
 export const MobilIconWrapper = styled.div`
@@ -70,7 +70,7 @@ export const MobileIcon = styled.div`
 
 export const CatIcon = styled.div`
   position: absolute;
-  top: 35px;
+  top: 105px;
   left: 5px;
   color: cornsilk;
   font-size: 2rem;
