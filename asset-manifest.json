@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maggie-rozell/static/css/main.5693fe77.css",
-    "main.js": "/maggie-rozell/static/js/main.ef19f415.js",
+    "main.css": "/maggie-rozell/static/css/main.fe20c1a6.css",
+    "main.js": "/maggie-rozell/static/js/main.d24688a6.js",
     "static/media/KiraTrim.mp4": "/maggie-rozell/static/media/KiraTrim.7a8601411d5ed63b010c.mp4",
     "static/media/concrete.jpg": "/maggie-rozell/static/media/concrete.3b79b54e23784d7f7ca8.jpg",
     "static/media/HeroImageTrees.jpg": "/maggie-rozell/static/media/HeroImageTrees.e7f63c003804b9b4dcc1.jpg",
@@ -10,11 +10,11 @@
     "static/media/Maggie-Rozell-Resume.pdf": "/maggie-rozell/static/media/Maggie-Rozell-Resume.44d80018713d70928f34.pdf",
     "static/media/Nsnap4.jpg": "/maggie-rozell/static/media/Nsnap4.d5902edc5244e1d2b57f.jpg",
     "index.html": "/maggie-rozell/index.html",
-    "main.5693fe77.css.map": "/maggie-rozell/static/css/main.5693fe77.css.map",
-    "main.ef19f415.js.map": "/maggie-rozell/static/js/main.ef19f415.js.map"
+    "main.fe20c1a6.css.map": "/maggie-rozell/static/css/main.fe20c1a6.css.map",
+    "main.d24688a6.js.map": "/maggie-rozell/static/js/main.d24688a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5693fe77.css",
-    "static/js/main.ef19f415.js"
+    "static/css/main.fe20c1a6.css",
+    "static/js/main.d24688a6.js"
   ]
 }
