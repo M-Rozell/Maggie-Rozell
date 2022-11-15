@@ -1,6 +1,7 @@
 
 import styled, { keyframes } from 'styled-components';
 import HeroImage from "../../images/HeroImageTrees.jpg";
+import MobileHeroImage from "../../images/768HeroImage.jpg"
 
 const fadeIn = keyframes`
   0% {
@@ -15,7 +16,7 @@ const fadeIn = keyframes`
 export const HeroContainer = styled.div`
   width: 100%;
   height: 100vh;
-  background-image: url(${HeroImage}) ;
+  background-image: url(${MobileHeroImage});
   background-repeat: no-repeat;
   background-position: center center fixed;
   background-size: cover;
@@ -23,8 +24,13 @@ export const HeroContainer = styled.div`
   padding: 0;
   overflow: hidden;
 
+    @media screen and (min-width: 500px) {
+      background-image: url(${HeroImage});
+    }
+
     @media screen and (min-width: 768px) {
       border: 2px solid cornsilk;
+      
   }
 `
 
