@@ -1,11 +1,16 @@
 
 import '../css/Projects.css';
 import '../css/BootstrapGhibli.css';
-import React, { useState } from 'react';
-import TTTModal from '../components/TTTModal';
 import { useNavigate } from 'react-router-dom';
-import TaskModal from '../components/TaskModal';
-import WeatherModal from '../components/WeatherModal';
+import React, { useState, Suspense } from 'react';
+// import TTTModal from '../components/TTTModal';
+// import TaskModal from '../components/TaskModal';
+// import WeatherModal from '../components/WeatherModal';
+
+const TTTModal = React.lazy(() => import("../components/TTTModal"))
+const TaskModal = React.lazy(() => import("../components/TaskModal"))
+const WeatherModal = React.lazy(() => import("../components/WeatherModal"))
+
 
 
 const Projects = () => {
@@ -42,19 +47,32 @@ const Projects = () => {
 
       <div className='projectsTitle'>PROJECTS</div>
 
-      
 
-        <div className='projectsBtns'>
-          {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
-          {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
-          {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
-          {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>}
-        </div>
-<div className='projectsModalContent'>
+
+      <div className='projectsBtns'>
+        {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
+        {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
+        {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
+        {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>}
+      </div>
+      
+      <div className='projectsModalContent'>
         <div className='projectModals'>
-          {tttmodal && <TTTModal closeModal={setTTTModal} openBtn={setBtn} />}
-          {task && <TaskModal closeModal={setTask} openBtn={setBtn} />}
-          {weatherBtn && <WeatherModal closeModal={setWeatherBtn} openBtn={setBtn} />}
+
+          {tttmodal && (
+            <Suspense fallback={<p>Loading...</p>}>
+              <TTTModal closeModal={setTTTModal} openBtn={setBtn} />
+            </Suspense>)}
+
+          {task && (
+            <Suspense fallback={<p>Loading...</p>}>
+              <TaskModal closeModal={setTask} openBtn={setBtn} />
+            </Suspense>)}
+
+          {weatherBtn && (
+            <Suspense fallback={<p>Loading...</p>}>
+              <WeatherModal closeModal={setWeatherBtn} openBtn={setBtn} /></Suspense>)}
+
         </div>
       </div>
     </div>
