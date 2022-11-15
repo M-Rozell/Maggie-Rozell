@@ -3,14 +3,14 @@ import About from './About';
 import "../css/MainHome.css";
 import Skills from './Skills';
 import Projects from './Projects';
-import Kira from '../components/Kira';
+// import Kira from '../components/Kira';
 import { GiHollowCat } from 'react-icons/gi';
 import MainNavbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef, Suspense } from 'react';
 import { CatIcon } from '../components/HeroSection/HeroElements';
 
-
+const Kira = React.lazy(() => import("../components/Kira"))
 
 
 
@@ -77,7 +77,10 @@ const MainHome = () => {
 
       <section className='kiraSections'>
         <div ref={videoSection}>
-          {openKira && <Kira />}
+          {openKira && (
+          <Suspense fallback={<p>Loading...</p>}>
+          <Kira />
+          </Suspense>)}
         </div>
       </section>
 
