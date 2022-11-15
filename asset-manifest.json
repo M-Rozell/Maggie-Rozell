@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maggie-rozell/static/css/main.de52aaca.css",
-    "main.js": "/maggie-rozell/static/js/main.4a49c85d.js",
+    "main.js": "/maggie-rozell/static/js/main.ff98cbc9.js",
     "static/css/878.e214bc13.chunk.css": "/maggie-rozell/static/css/878.e214bc13.chunk.css",
     "static/js/878.753f43f1.chunk.js": "/maggie-rozell/static/js/878.753f43f1.chunk.js",
     "static/css/326.8bf80065.chunk.css": "/maggie-rozell/static/css/326.8bf80065.chunk.css",
@@ -17,11 +17,12 @@
     "static/media/HeroImageTrees.jpg": "/maggie-rozell/static/media/HeroImageTrees.e7f63c003804b9b4dcc1.jpg",
     "static/media/bellingrath-gardens-alabama-landscapeTwo.jpg": "/maggie-rozell/static/media/bellingrath-gardens-alabama-landscapeTwo.557bcbfe174a77471ec4.jpg",
     "static/media/Dark.jpg": "/maggie-rozell/static/media/Dark.ff487384ea65a62e9903.jpg",
+    "static/media/768HeroImage.jpg": "/maggie-rozell/static/media/768HeroImage.5057403a395f1eb8de15.jpg",
     "static/media/Maggie-Rozell-Resume.pdf": "/maggie-rozell/static/media/Maggie-Rozell-Resume.44d80018713d70928f34.pdf",
     "static/media/Nsnap4.jpg": "/maggie-rozell/static/media/Nsnap4.d5902edc5244e1d2b57f.jpg",
     "index.html": "/maggie-rozell/index.html",
     "main.de52aaca.css.map": "/maggie-rozell/static/css/main.de52aaca.css.map",
-    "main.4a49c85d.js.map": "/maggie-rozell/static/js/main.4a49c85d.js.map",
+    "main.ff98cbc9.js.map": "/maggie-rozell/static/js/main.ff98cbc9.js.map",
     "878.e214bc13.chunk.css.map": "/maggie-rozell/static/css/878.e214bc13.chunk.css.map",
     "878.753f43f1.chunk.js.map": "/maggie-rozell/static/js/878.753f43f1.chunk.js.map",
     "326.8bf80065.chunk.css.map": "/maggie-rozell/static/css/326.8bf80065.chunk.css.map",
@@ -35,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.de52aaca.css",
-    "static/js/main.4a49c85d.js"
+    "static/js/main.ff98cbc9.js"
   ]
 }
