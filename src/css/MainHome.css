@@ -1,17 +1,31 @@
 
-/* html {scroll-snap-type: y mandatory;} */
+html, body { 
+  height: 100%;
+  width: 100%;
+ }
+html {scroll-snap-type: y mandatory;}
 
-#mainHomeContainer {
-    /* width: 100%;
-    scroll-snap-type: y mandatory;
-  max-height: 100vh;
-  overflow-y: scroll; */
+
+/* #mainHomeContainer {
+  scroll-snap-type: block;
     background-color: black;
+    scroll-snap-align: start;
     
-    
-}
+} */
 
 .homeSections {
     scroll-snap-align: start;
-    scroll-snap-stop: always;
+    /* scroll-margin-top: 70px; */
+}
+.aboutSections {
+  scroll-snap-align: start;
+}
+.projectSections {
+  scroll-snap-align: start;
+}
+.skillsSections {
+  scroll-snap-align: start;
+}
+.kiraSections {
+  scroll-snap-align: start;
 }

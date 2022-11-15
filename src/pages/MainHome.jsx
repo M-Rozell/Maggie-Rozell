@@ -8,14 +8,15 @@ import { GiHollowCat } from 'react-icons/gi';
 import MainNavbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import React, { useState, useEffect, useRef } from 'react';
-import { CatIcon } from '../components/Navbar/NavbarElements';
+import { CatIcon } from '../components/HeroSection/HeroElements';
+
 
 
 
 
 const MainHome = () => {
 
-  const [cat, setCat] = useState(true)
+  // const [cat, setCat] = useState(true)
   const [openKira, setOpenKira] = useState(false);
   const videoSection = useRef(null);
 
@@ -28,17 +29,18 @@ const MainHome = () => {
     }, 500)
   };
 
-  const changeCat = () => {
-    if (window.scrollY >= 80) {
-      setCat(false)
-    } else {
-      setCat(true)
-    }
-  };
+  // const changeCat = () => {
+  //   if (window.scrollY >= 80) {
+  //     setCat(false)
+  //   } else {
+  //     setCat(true)
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeCat)
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeCat)
+  // }, []);
+
 
 
   return (
@@ -47,31 +49,33 @@ const MainHome = () => {
 
       <MainNavbar CloseKiraVideo={setOpenKira} />
 
-      {cat && <CatIcon onClick={() => { setOpenKira(true) }} >
+      <CatIcon onClick={() => { setOpenKira(true) }} >
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
-      </CatIcon>}
+      </CatIcon>
 
-      <div id='mainHomeContainer'>
+      {/* <div id='mainHomeContainer' className=''>
+        </div> */}
 
-       <section className='homeSections'> 
-          <HeroSection />
-        </section>
 
-        <section className='homeSections'>
-          <About />
-        </section>
+      <section className='homeSections'>
+        <HeroSection />
+      </section>
 
-        <section className='homeSections'>
-          <Projects />
-        </section>
+      <section className='aboutSections'>
+        <About />
+      </section>
 
-        <section className='homeSections'>
-          <Skills CloseKiraVideo={setOpenKira} />
-        </section>
-      
-      </div>
+      <section className='projectSections'>
+        <Projects />
+      </section>
 
-      <section>
+      <section className='skillsSections'>
+        <Skills CloseKiraVideo={setOpenKira} />
+      </section>
+
+
+
+      <section className='kiraSections'>
         <div ref={videoSection}>
           {openKira && <Kira />}
         </div>

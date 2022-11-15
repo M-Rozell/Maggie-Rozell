@@ -8,7 +8,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import pdf from "../files/Maggie-Rozell-Resume.pdf";
 import { LinkBtns, GitHub, Email, LinkedIn } from "../components/HeroSection/HeroElements"; //css in HeroElements
 
-import MainNavbar from "../components/Navbar";
 
 const textAnimate = {
     offscreen: { y: 100, opacity: 0 },
@@ -18,15 +17,15 @@ const textAnimate = {
 
 const About = () => {
 
-const ref = useRef(null)
-const isInView = useInView(ref)
-useEffect(() => {
-    console.log("Element is in view: ", isInView)
-  }, [isInView])
+// const ref = useRef(null)
+// const isInView = useInView(ref)
+// useEffect(() => {
+//     console.log("Element is in view: ", isInView)
+//   }, [isInView])
 
     return (
 <>
-        <div className="aboutContainer" id="About" ref={ref}>
+        <div className="aboutContainer" id="About" >
             <div className="aboutContainerWrapper" >
             <motion.div className="aboutWrapper"
             

@@ -6,8 +6,8 @@ import { Link as LinkScroll } from 'react-scroll';
 export const Nav = styled.nav`
   width: 100%;
   overflow-x: hidden;
-  background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
-  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
+  /* background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
+  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
   height: 70px;
   margin-top: -70px;
   display: flex;
@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 
 
   @media screen and (min-width: 768px) {
-    border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")};
+    /* border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
   }
 
   /* @media screen and (max-width: 960px) {
@@ -69,19 +69,19 @@ export const MobileIcon = styled.div`
 `
 
 
-export const CatIcon = styled.div`
-  position: absolute;
-  top: 35px;
-  left: 5px;
-  color: cornsilk;
-  font-size: 2rem;
-  z-index: 21;
+// export const CatIcon = styled.div`
+//   position: absolute;
+//   top: 35px;
+//   left: 5px;
+//   color: cornsilk;
+//   font-size: 2rem;
+//   z-index: 21;
 
-  &:hover {
-    color: aqua;
-    cursor: pointer;
-}
-` 
+//   &:hover {
+//     color: aqua;
+//     cursor: pointer;
+// }
+// ` 
 
 
 export const NavMenu = styled.div`
