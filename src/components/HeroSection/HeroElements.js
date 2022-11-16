@@ -24,16 +24,14 @@ export const HeroContainer = styled.div`
   overflow: hidden;
 
     @media screen and (min-width: 768px) {
-      border: 2px solid cornsilk;
-      
-  }
+      border: 1px solid cornsilk;
+    }
 `
 
 export const NavBg = styled.div`
 width: 100%;
 height: 70px;
 background-color: rgb(40, 40, 40, 0.65);
-
 border-bottom: 1px solid cornsilk;
 `
 
