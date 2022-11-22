@@ -39,13 +39,13 @@ export const SidebarWrapper = styled.div`
 
 
 export const SidebarCloseIcon = styled(AiOutlineCloseCircle)`
-    color: #f0f9db;
+    color: #F7EF8A;
 `
 
 
 export const SidebarIcon = styled.div`
     position: absolute;
-    top: 3px;
+    top: 4px;
     right: 8px;
     background: transparent;
     font-size: 1.5rem;

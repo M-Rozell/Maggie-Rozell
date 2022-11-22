@@ -198,3 +198,9 @@
     justify-content: center;
     margin-top: 3rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .projectsModalContent {
+        margin-top: 1rem;
+    }
+}

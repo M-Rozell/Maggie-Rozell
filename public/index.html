@@ -19,15 +19,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #FF5F1F;
+      flex-direction: column;
+      background-color: #323f50;
+      border: 2px solid #ede5dd;
+    }
+
+    .loading {
+      color: #ede5dd;
+      font-size: 1.25rem;
     }
     
 
     .loader {
       position: relative;
       
-      border: 10px solid #f3f3f3;
-      border-top: 10px solid #484e46;
+      border: 10px solid #ede5dd;
+      border-top: 10px solid #607898;
       border-radius: 50%;
       width: 100px;
       height: 100px;
@@ -63,6 +70,7 @@
   <!-- Loading Spinner Div -->
   <div class="loader-container">
     <div class="loader"></div>
+    <div class="loading">loading...</div>
  </div>
 
 
