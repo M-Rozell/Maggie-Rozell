@@ -15,7 +15,7 @@ export const AnimationContainer = styled.div`
 export const AnimationOneWrapper = styled.div`
     width: 100%;
     height: 100%;
-    top: 400px;
+    top: 25rem;
     left: 0;
     position: absolute;
     overflow: hidden;

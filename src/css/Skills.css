@@ -23,14 +23,14 @@
   margin: 0;
   padding: 0;
 }
-  @media screen and (min-width: 327px) {
+  @media screen and (min-width: 20.5em) {
     .skillsTitle {
       font-size: 8rem;
   }
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   #rotate {
     position: absolute;
     font-size: 14rem;
@@ -40,24 +40,24 @@
     transform: translateX(-25%) translateY(-50%) rotate(-90deg);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90em) {
   #rotate {
     font-size: 20rem;
   }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 160em) {
   #rotate {
     font-size: 30rem;
   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.98em) {
   .skillsTitleTwo {
     display: none;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .skillsTitleTwo {
     position: absolute;
     color: cornsilk;
@@ -70,12 +70,12 @@
     transform: scale(-1, 1) translateX(-25%) translateY(-50%) rotate(-90deg);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90em) {
   .skillsTitleTwo {
     font-size: 20rem;
   }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 160em) {
   .skillsTitleTwo {
     font-size: 30rem;
   }
@@ -96,38 +96,38 @@
 
 .window {
   position: relative;
-  width: 278px;
-  height: 400px;
+  width: 17.375rem;  
+  height: 25rem;
   border: 2px solid cornsilk;
   overflow: hidden;
   overscroll-behavior: contain;
 }
-  @media screen and (min-width: 377px) {
+  @media screen and (min-width: 23.5em) {
     .window {
-      width: 300px;
-      height: 500px;
+      width: 18.75rem;
+      height: 31.25rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .window {
-      width: 400px;
+      width: 25rem;
       height: 70vh;
-      margin-top: 30px;
+      margin-top: 1.875rem;
   }
 }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 90em) {
     .window {
-      width: 550px;
+      width: 34.375rem;
       height: 50vh;
-      margin-top: 30px;
+      margin-top: 1.875rem;
   }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 160em) {
   .window {
-    width: 1000px;
+    width: 62.5rem;
     height: 75vh;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 }
 
@@ -135,8 +135,8 @@
 
 .bottomArrow {
   position: absolute;
-  right: 10px;
-  bottom: 20px;
+  right: 0.625rem;
+  bottom: 1.25rem;
   z-index: 3;
 }
 

@@ -1,8 +1,4 @@
 
-* {
-  user-select: none;
-}
-
 
 .aboutContainer {
   width: 100%;
@@ -13,9 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-  /* margin-bottom: 2px;
-  margin-top: 2px; */
-}
+  }
 
 
 .aboutContainerWrapper {
@@ -27,8 +21,8 @@
 }
 
 .aboutWrapper {
-  margin-top: 2px;
-  margin-bottom: 10px;
+  margin-top: 0.125rem;
+  margin-bottom: 0.625rem;
   
 }
 
@@ -46,27 +40,27 @@
   /* z-index: 3; */
   overflow: hidden;
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .aboutTitle {
       font-size: 4rem;
   }
 }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 64em) {
     .aboutTitle {
       font-size: 4.25rem;
       margin-left: 3rem;
   }
 }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 90em) {
     .aboutTitle {
       font-size: 4.5rem;
       margin-left: 7rem;
   }
 }
-  @media screen and (min-width: 2560px) {
+  @media screen and (min-width: 160em) {
     .aboutTitle {
       font-size: 5rem;
-      margin-left: 14rem;
+      margin-left: 30rem;
   }
 }
 
@@ -84,34 +78,34 @@
   border: .25px solid cornsilk;
   border-radius: 3px;
 }
-  @media screen and (min-width: 280px) {
+  @media screen and (min-width: 17.5em) {
     .resume {
       width: auto;
       height: auto;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .resume {
       margin-left: 1rem;
       margin-right: 1rem;
   }
 }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 64em) {
     .resume {
       margin-left: 4rem;
       margin-right: 4rem;
   }
 }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 90em) {
     .resume {
       margin-left: 8rem;
       margin-right: 8rem;
   }
 }
-  @media screen and (min-width: 2560px) {
+  @media screen and (min-width: 160em) {
     .resume {
-      margin-left: 15rem;
-      margin-right: 15rem;
+      margin-left: 30rem;
+      margin-right: 30rem;
   }
 }
 
@@ -125,7 +119,7 @@
   border: .35px dashed cornsilk;
 }
 
-  @media screen and (min-width: 280px) {
+  @media screen and (min-width: 17.5em) {
     .objective {
       width: auto;
       height: auto;
@@ -136,18 +130,18 @@
 .pObjective {
   font-size: .5rem;
   color: cornsilk;
-  text-indent: 30px;
+  text-indent: 1.875rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   }
-    @media screen and (min-width: 390px) {
+    @media screen and (min-width: 24.375em) {
       .pObjective {
         font-size: .65rem;
     }
   }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
       .pObjective {
         font-size: .75rem;
     }
@@ -159,13 +153,14 @@
   font-size: .65rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .txtCertifications {
       font-size: .75rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .txtCertifications {
       font-size: .85rem;
   }
@@ -175,18 +170,19 @@
 .certList {
   font-size: .5rem;
   color: cornsilk;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .certList {
       font-size: .65rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .certList {
       font-size: .75rem;
   }
@@ -198,13 +194,14 @@
   font-size: .65rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .txtEducation {
       font-size: .75rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .txtEducation {
       font-size: .85rem;
   }
@@ -212,7 +209,7 @@
 
 
 .education {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
@@ -221,16 +218,17 @@
 .educationList {
   font-size: .5rem;
   color: cornsilk;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .educationList {
       font-size: .65rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .educationList {
       font-size: .75rem;
   }
@@ -239,18 +237,18 @@
 
 .resumeLink {
   color: #F7EF8A;
-  margin-left: 8px;
+  margin-left: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
   font-size: .75rem;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .resumeLink {
       font-size: .95rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .resumeLink {
       font-size: 1.25rem;
   }
@@ -267,18 +265,18 @@
 
 .portfolioLink {
   color: #F7EF8A;
-  margin-right: 8px;
+  margin-right: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
   font-size: .75rem;
 }
-  @media screen and (min-width: 390px) {
+  @media screen and (min-width: 24.375em) {
     .portfolioLink {
       font-size: .95rem;
   }
 }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     .portfolioLink {
       font-size: 1.25rem;
   }

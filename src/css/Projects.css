@@ -18,42 +18,26 @@
     font-family: 'Kanit', sans-serif;
     font-weight: 800;
     top: 2.5rem;
-    margin-left: 5px;
-    /* font-size: 2rem; */
+    margin-left: 0.3125rem;
     font-size: clamp(2rem, 1rem + 5vw, 8rem);
 }
-/* @media screen and (min-width: 768px) {
-    .projectsTitle {
-        font-size: 3rem;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .projectsTitle {
-        font-size: 8rem;
-    }
-}
-@media screen and (min-width: 2560px) {
-    .projectsTitle {
-        font-size: 15rem;
-    }
-} */
 
 
 .projectsBtns {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 10px;
+    margin-top: 6.25rem;
+    margin-left: 0.625rem;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .projectsBtns {
-            margin-left: 20px;
+            margin-left: 1.25rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .projectsBtns {
-            margin-left: 50px;
+            margin-left: 3.125rem;
     }
 }
 
@@ -68,15 +52,15 @@
     border-radius: 5px;
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .tttBtn {
             font-size: 2rem;
             padding: .3rem 3rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .tttBtn {
             font-size: 3rem;
             border: 3px solid cornsilk;
@@ -99,15 +83,15 @@
     border-radius: 5px;
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .taskBtn {
             font-size: 2rem;
             padding: .3rem 3rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .taskBtn {
             font-size: 3rem;
             border: 3px solid cornsilk;
@@ -130,15 +114,15 @@
     border-radius: 5px;
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .weatherBtn {
             font-size: 2rem;
             padding: .3rem 3rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .weatherBtn {
             font-size: 3rem;
             border: 3px solid cornsilk;
@@ -161,15 +145,15 @@
     border-radius: 5px;
     padding: .15rem .5rem;
     background-color: rgb(40, 40, 40, 0.6);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .bootstrapBtn {
             font-size: 2rem;
             padding: .3rem 3rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .bootstrapBtn {
             font-size: 3rem;
             border: 3px solid cornsilk;
@@ -182,15 +166,7 @@
     transform: scale(1.1);
 }
 
-/* .projectModals {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
 .projectsModalContent {
     width: 100%;
     height: 100%;
@@ -199,7 +175,7 @@
     margin-top: 3rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
     .projectsModalContent {
         margin-top: 1rem;
     }

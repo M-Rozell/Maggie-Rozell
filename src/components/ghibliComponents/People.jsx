@@ -11,7 +11,7 @@ const People = () => {
     const [people, setPeople] = useState([]);
 
     useEffect(() => {
-        fetch('https://ghibliapi.herokuapp.com/people')
+        fetch('https://api-ghibli.herokuapp.com/people')
             .then(res => res.json())
             .then(data => setPeople(data))
             .catch(e => alert(e.message))

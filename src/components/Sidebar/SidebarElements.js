@@ -10,23 +10,23 @@ export const SidebarContainer = styled.aside`
     padding: 0;
     z-index: 999;
     width: 275px;
-    height: 50px;
+    height: 3.125rem;
     background: transparent;
     border-radius: 8px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    top: 10px;
-    right: 10px;
+    top: 0.625rem;
+    right: 0.625rem;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 48em){
         display: none;
 }
 
-    @media screen and (min-width: 281px){
-        width: 350px;
-        right: 20px;
+    @media screen and (min-width: 17.5625em){
+        width: 21.875rem;
+        right: 1.25rem;
 }
 `
 
@@ -34,7 +34,7 @@ export const SidebarContainer = styled.aside`
 export const SidebarWrapper = styled.div`
     display: flex;
     flex-direction: row;
-    margin-right: 25px;
+    margin-right: 1.5625rem;
 `
 
 
@@ -45,8 +45,8 @@ export const SidebarCloseIcon = styled(AiOutlineCloseCircle)`
 
 export const SidebarIcon = styled.div`
     position: absolute;
-    top: 4px;
-    right: 8px;
+    top: 0.25rem;
+    right: 0.5rem;
     background: transparent;
     font-size: 1.5rem;
     cursor: pointer;
@@ -55,7 +55,7 @@ export const SidebarIcon = styled.div`
 
 
 export const SidebarMenu = styled.ul`
-    margin: 7px;
+    margin: 0.4375rem;
     padding: 0;
 `
 
@@ -73,7 +73,7 @@ export const SidebarLink = styled(LinkScroll)`
         color: #AE8625;
 }
 
-    @media screen and (min-width: 281px) {
+    @media screen and (min-width: 17.5625em) {
         font-size: 1.2rem;
 }
 `

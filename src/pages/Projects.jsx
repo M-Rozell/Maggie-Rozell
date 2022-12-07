@@ -1,11 +1,8 @@
 
 import '../css/Projects.css';
 import '../css/BootstrapGhibli.css';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import React, { useState, Suspense } from 'react';
-// import TTTModal from '../components/TTTModal';
-// import TaskModal from '../components/TaskModal';
-// import WeatherModal from '../components/WeatherModal';
 
 const TTTModal = React.lazy(() => import("../components/TTTModal"))
 const TaskModal = React.lazy(() => import("../components/TaskModal"))
@@ -17,29 +14,29 @@ const WeatherModal = React.lazy(() => import("../components/WeatherModal"))
 
 const Projects = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [tttmodal, setTTTModal] = useState(false);
   const [task, setTask] = useState(false);
   const [weatherBtn, setWeatherBtn] = useState(false);
   const [btn, setBtn] = useState(true);
 
-  const navigateToGhibliHome = () => {
-    navigate('/GhibliHome');
-  };
+  // const navigateToGhibliHome = () => {
+  //   navigate('/GhibliHome');
+  // };
 
   const handleTTTBtn = () => {
-    setTTTModal(true)
-    setBtn(false)
+    setTTTModal(true);
+    setBtn(false);
   };
 
   const handleTaskBtn = () => {
-    setTask(true)
-    setBtn(false)
+    setTask(true);
+    setBtn(false);
   };
 
   const handleWeatherBtn = () => {
-    setWeatherBtn(true)
-    setBtn(false)
+    setWeatherBtn(true);
+    setBtn(false);
   };
 
 
@@ -47,7 +44,7 @@ const Projects = () => {
 
     <div className='projectsContainer' id='Projects'>
 
-      <div className='projectsTitle'>PROJECTS</div>
+      <h1 className='projectsTitle'>PROJECTS</h1>
 
 
 
@@ -55,7 +52,7 @@ const Projects = () => {
         {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
         {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
         {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
-        {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>}
+        {/* {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>} */}
       </div>
       
       <div className='projectsModalContent'>

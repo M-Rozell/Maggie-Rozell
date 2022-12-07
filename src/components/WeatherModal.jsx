@@ -9,8 +9,8 @@ import { AiOutlineCloseCircle } from 'react-icons/ai';
 function WeatherModal({ closeModal, openBtn }) {
 
     const handleCloseWeatherModal = () => {
-        closeModal(false)
-        openBtn(true)
+        closeModal(false);
+        openBtn(true);
     };
 
     const [data, setData] = useState({});

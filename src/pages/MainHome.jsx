@@ -3,7 +3,6 @@ import About from './About';
 import "../css/MainHome.css";
 import Skills from './Skills';
 import Projects from './Projects';
-// import Kira from '../components/Kira';
 import { GiHollowCat } from 'react-icons/gi';
 import MainNavbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
@@ -16,7 +15,7 @@ const Kira = React.lazy(() => import("../components/Kira"))
 
 const MainHome = () => {
 
-  // const [cat, setCat] = useState(true)
+
   const [openKira, setOpenKira] = useState(false);
   const videoSection = useRef(null);
 
@@ -29,61 +28,45 @@ const MainHome = () => {
     }, 500)
   };
 
-  // const changeCat = () => {
-  //   if (window.scrollY >= 80) {
-  //     setCat(false)
-  //   } else {
-  //     setCat(true)
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', changeCat)
-  // }, []);
-
 
 
   return (
 
     <>
+      <MainNavbar CloseKiraVideo={setOpenKira} aria-label="navbar"/>
 
-      <MainNavbar CloseKiraVideo={setOpenKira} />
-
-      <CatIcon onClick={() => { setOpenKira(true) }} >
+      <CatIcon onClick={() => { setOpenKira(true) }} aria-label="cat video">
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>
 
-      {/* <div id='mainHomeContainer' className=''>
-        </div> */}
+      <main>
+        <section className='homeSections'>
+          <HeroSection />
+        </section>
 
+        <section className='aboutSections'>
+          <About />
+        </section>
 
-      <section className='homeSections'>
-        <HeroSection />
-      </section>
+        <section className='projectSections'>
+          <Projects />
+        </section>
 
-      <section className='aboutSections'>
-        <About />
-      </section>
-
-      <section className='projectSections'>
-        <Projects />
-      </section>
-
-      <section className='skillsSections'>
-        <Skills CloseKiraVideo={setOpenKira} />
-      </section>
+        <section className='skillsSections'>
+          <Skills CloseKiraVideo={setOpenKira} />
+        </section>
 
 
 
-      <section className='kiraSections'>
-        <div ref={videoSection}>
-          {openKira && (
-          <Suspense fallback={<p>Loading...</p>}>
-          <Kira />
-          </Suspense>)}
-        </div>
-      </section>
-
+        <section className='kiraSections'>
+          <div ref={videoSection}>
+            {openKira && (
+              <Suspense fallback={<p>Loading...</p>}>
+                <Kira />
+              </Suspense>)}
+          </div>
+        </section>
+      </main>
     </>
 
   )

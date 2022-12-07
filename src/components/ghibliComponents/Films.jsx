@@ -11,7 +11,7 @@ const Films = () => {
     const [films, setFilms] = useState([]);
 
     useEffect(() => {
-        fetch('https://ghibliapi.herokuapp.com/films')
+        fetch('https://api-ghibli.herokuapp.com/films')
             .then(res => res.json())
             .then(data => setFilms(data))
             .catch(e => alert(e.message))

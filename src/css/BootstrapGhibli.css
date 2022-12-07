@@ -2,8 +2,8 @@
 /* NavBar */
 
 .navContainer {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
     background-color: white;
 }
 
@@ -30,8 +30,8 @@
     font-size: 1rem;
     cursor: pointer;
     color: rgb(41, 41, 41);
-    margin-top: 30px;
-    margin-right: 20px;
+    margin-top: 1.875rem;
+    margin-right: 1.25rem;
 }
 
 
@@ -75,9 +75,9 @@
 }
 
 .list-group-item {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 

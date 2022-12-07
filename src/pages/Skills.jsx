@@ -11,7 +11,7 @@ const Skills = ({ CloseKiraVideo }) => {
 
     <div className='skillsContainer' id='Skills'>
 
-      <div className='skillsTitle' id='rotate'>Skills</div>
+      <h1 className='skillsTitle' id='rotate'>Skills</h1>
 
       <div className='windowContainer'>
         <div className='window'>
@@ -21,7 +21,7 @@ const Skills = ({ CloseKiraVideo }) => {
         </div>
       </div>
 
-      <div className='skillsTitleTwo' id='rotateTwo'>Skills</div>
+      <h1 className='skillsTitleTwo' id='rotateTwo'>Skills</h1>
 
       <div className='bottomArrow'>
         <ToTop CloseKiraVideo={CloseKiraVideo} />

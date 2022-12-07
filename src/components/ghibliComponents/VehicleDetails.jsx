@@ -12,7 +12,7 @@ const VehicleDetails = () => {
     const [pilot, setPilot] = useState('');
 
     useEffect(() => {
-        fetch(`https://ghibliapi.herokuapp.com/vehicles/${vehicleid}`)
+        fetch(`https://api-ghibli.herokuapp.com/vehicles/${vehicleid}`)
             .then(res => res.json())
             .then(data => {
                 setDetails(data)

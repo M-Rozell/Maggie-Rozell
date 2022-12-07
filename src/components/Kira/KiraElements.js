@@ -32,20 +32,20 @@ export const VideoWrapper = styled.div`
 
 export const KiraFrame = styled.div`
     position: absolute;
-    width: 300px;
-    height: 500px;
+    width: 18.75rem;
+    height: 31.25rem;
     background-color: #fa1402;
     box-shadow: #FF8300 0px 0px 0px 2px inset, rgb(0, 0, 0, 0.9) -5px 5px 0px -3px, #fcf003 -5px 5px, rgb(0, 0, 0, 0.9) -10px 10px 0px -3px, #88db02 -10px 10px, rgb(0, 0, 0, 0.9) -15px 15px 0px -3px, #741AAC -15px 15px, rgb(0, 0, 0, 0.9) -20px 20px 0px -3px, #0000FF -20px 20px;
     z-index: 7;
 
-    @media screen and (min-width: 1440px) {
-        width: 500px;
-        height: 800px;
+    @media screen and (min-width: 90em) {
+        width: 31.25rem;
+        height: 50rem;
     }
 
-    @media screen and (min-width: 2560px) {
-        width: 700px;
-        height: 1100px;
+    @media screen and (min-width: 160em) {
+        width: 43.75rem;
+        height: 68.75rem;
     }
 `
 
@@ -64,8 +64,8 @@ export const VideoBg = styled.div`
 
 
 export const KiraVideo = styled.video`
-    width: 275px;
-    height: 475px;
+    width: 17.1875rem;
+    height: 29.6875rem;
     border: 1px solid cornsilk;
     border-radius: 25%;
     z-index: 8;
@@ -73,15 +73,15 @@ export const KiraVideo = styled.video`
     object-fit: cover;
     background: #232a34;
 
-    @media screen and (min-width: 1440px) {
-        width: 475px;
-        height: 775px;
+    @media screen and (min-width: 90em) {
+        width: 29.6875rem;
+        height: 48.4375rem;
         border: 2px solid cornsilk;
 }
 
-    @media screen and (min-width: 2560px) {
-        width: 675px;
-        height: 1075px;
+    @media screen and (min-width: 160em) {
+        width: 42.1875rem;
+        height: 67.1875rem;
         border: 3px solid cornsilk;
 }
 `

@@ -23,22 +23,22 @@ export const HeroContainer = styled.div`
   padding: 0;
   overflow: hidden;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
       border: 1px solid cornsilk;
     }
 `
 
 export const NavBg = styled.div`
 width: 100%;
-height: 70px;
+height: 4.375rem;
 background-color: rgb(40, 40, 40, 0.65);
 border-bottom: 1px solid cornsilk;
 `
 
 export const CatIcon = styled.div`
   position: absolute;
-  top: 35px;
-  left: 5px;
+  top: 2.1875rem;
+  left: 0.3125rem;
   color: cornsilk;
   font-size: 2rem;
   z-index: 21;
@@ -62,25 +62,11 @@ export const NameP1 = styled.p`
   position: absolute;
   color: #F7EF8A;
   font-family: 'IM Fell Great Primer SC', serif;
-  /* font-size: 2rem; */
   font-size: clamp(2rem, 1rem + 5vw, 8rem);
   bottom: 9rem;
   left: clamp(.5rem, 1rem + 5vw, 1.25rem);
   animation-name: ${fadeIn};
   animation-duration: 5s;
-
-/* @media screen and (min-width: 768px) {
-  font-size: 4rem;
-}
-
-@media screen and (min-width: 1440px) {
-  font-size: 5rem;
-}
-
-@media screen and (min-width: 2500px) {
-  font-size: 7rem;
-} */
-
 `
 
 export const NameP2 = styled.p`
@@ -106,11 +92,11 @@ export const LinkBtns = styled.div`
   padding: 0;
   margin: 0;
 
-    @media screen and (min-width: 390px) {
+    @media screen and (min-width: 24.4375em) {
       font-size: .95rem;
   }
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
       font-size: 1.25rem;
   }
 `
@@ -131,8 +117,8 @@ export const GitHub = styled.a`
 
 
 export const Email = styled.a`
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
   color: #F7EF8A;
   text-decoration: none;
 

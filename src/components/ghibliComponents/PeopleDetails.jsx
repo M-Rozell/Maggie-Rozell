@@ -12,7 +12,7 @@ const PeopleDetails = () => {
     const [details, setDetails] = useState(null);
 
     useEffect(() => {
-        fetch(`https://ghibliapi.herokuapp.com/people/${peopleid}`)
+        fetch(`https://api-ghibli.herokuapp.com/people/${peopleid}`)
             .then(res => res.json())
             .then(data => setDetails(data))
             .catch(e => alert(e.message))

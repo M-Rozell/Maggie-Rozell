@@ -8,8 +8,8 @@ export const Nav = styled.nav`
   overflow-x: hidden;
   /* background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
   border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
-  height: 70px;
-  margin-top: -70px;
+  height: 4.375rem;
+  margin-top: -4.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ export const Nav = styled.nav`
   z-index:20;
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     /* border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
   }
 
@@ -42,13 +42,13 @@ export const NavbarContainer = styled.div`
 
 export const MobilIconWrapper = styled.div`
   width: 100%;
-  height: 60px;
+  height: 3.75rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
   display: none;
 }
 `
@@ -63,31 +63,16 @@ export const MobileIcon = styled.div`
     color: #F7EF8A;
   
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     display: none;
 }
 `
 
 
-// export const CatIcon = styled.div`
-//   position: absolute;
-//   top: 35px;
-//   left: 5px;
-//   color: cornsilk;
-//   font-size: 2rem;
-//   z-index: 21;
-
-//   &:hover {
-//     color: aqua;
-//     cursor: pointer;
-// }
-// ` 
-
-
 export const NavMenu = styled.div`
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48em) {
     width: 100%;
     position: relative;
     display: flex;
@@ -98,7 +83,7 @@ export const NavMenu = styled.div`
 
 
 export const NavItem = styled.div`
-  height: 60px; //was 80
+  height: 3.75rem; //was 80
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +105,7 @@ export const NavLinks = styled(LinkScroll)`
   font-weight: 500;
   font-size: .75rem;
   line-height: 20px;
-  margin: 0 30px 10px 0;
+  margin: 0 1.875rem 0.625rem 0;
   overflow: visible;
   text-align: center;
   text-decoration: none;
@@ -129,7 +114,7 @@ export const NavLinks = styled(LinkScroll)`
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  padding: 4px 25px;
+  padding: 0.25rem 1.5625rem;
 
   &:hover {
     text-decoration: none;

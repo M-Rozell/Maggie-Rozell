@@ -11,12 +11,11 @@
     height: 60vh;
     background: url('../images/bellingrath-gardens-alabama-landscapeTwo.jpg') no-repeat center center/cover;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    /* padding: 20px; */
     border-radius: 6px;
     position: relative;
     margin-top: 3rem;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .weatherWrapper {
             width: 40vw;
             height: 65vh;
@@ -24,7 +23,7 @@
     }
 }
     
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .weatherWrapper {
             width: 40vw;
             height: 70vh;
@@ -34,8 +33,8 @@
 
 .weatherCloseBtn {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 0.125rem;
+    right: 0.125rem;
     z-index: 1;
 }
 
@@ -46,12 +45,12 @@
     cursor: pointer;
     color: cornsilk;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .weatherCloseBtn button {
             font-size: 1.25rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .weatherCloseBtn button {
             font-size: 1.5rem;
     }
@@ -71,7 +70,7 @@
 
 .search {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 
@@ -83,17 +82,17 @@
     padding: .25rem .5rem;
     font-size: 1rem;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .weatherInput {
             font-size: 1rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .weatherInput {
             font-size: 1.25rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .weatherInput {
             font-size: 1.5rem;
     }
@@ -107,17 +106,17 @@
     font-size: 1.25rem;
     padding-top: .5rem;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .weatherInput::placeholder {
             font-size: 1.15rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .weatherInput::placeholder {
             font-size: 1.25rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .weatherInput::placeholder {
             font-size: 1.5rem;
     }
@@ -125,22 +124,22 @@
 
 
 .day {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: .75rem;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .day{
             font-size: 1rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .day{
             font-size: 1.25rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .day{
             font-size: 1.5rem;
     }
@@ -166,17 +165,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .paraLocation{
             font-size: 1.5rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .paraLocation{
             font-size: 1.75rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160emx) {
         .paraLocation{
             font-size: 3rem;
     }
@@ -188,17 +187,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .paraSky{
             font-size: 1.5rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .paraSky{
             font-size: 1.75rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .paraSky{
             font-size: 3rem;
     }
@@ -210,17 +209,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 48em) {
         .tempHome{
             font-size: 6rem;
     }
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .tempHome{
             font-size: 7rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .tempHome{
             font-size: 8rem;
     }
@@ -233,13 +232,13 @@
     align-items: center;
     text-align: center;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background: rgb(40, 40, 40, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.8);
-    padding: 3px;
-    margin-bottom: 10px;
+    padding: 0.1875rem;
+    margin-bottom: 0.625rem;
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .middle {width: 45vw;}
 }
 
@@ -250,12 +249,12 @@
     font-size: .75rem;
     margin: auto;
 }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 90em) {
         .para{
             font-size: 1.5rem;
     }
 }
-    @media screen and (min-width: 2560px) {
+    @media screen and (min-width: 160em) {
         .para{
             font-size: 2rem;
     }

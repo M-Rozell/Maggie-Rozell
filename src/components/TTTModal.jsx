@@ -87,7 +87,7 @@ function TTTModal({ closeModal, openBtn }) {
                     <button onClick={() => handleCloseTTTModal()}><AiFillCloseCircle /></button>
                 </div>
 
-                <div className='tttTitle'>Tic Tac Toe</div>
+                <h1 className='tttTitle'>Tic Tac Toe</h1>
 
                 <div id="board" className=''>
 

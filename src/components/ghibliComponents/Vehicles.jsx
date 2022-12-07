@@ -10,7 +10,7 @@ const Vehicles = () => {
     const [vehicles, setVehicles] = useState([]);
 
     useEffect(() => {
-        fetch('https://ghibliapi.herokuapp.com/vehicles')
+        fetch('https://api-ghibli.herokuapp.com/vehicles')
             .then(res => res.json())
             .then(data => setVehicles(data))
             .catch(e => alert(e.message))
