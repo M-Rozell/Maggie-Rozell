@@ -1,6 +1,6 @@
 
 import { Link, useParams } from "react-router-dom";
-import '../../css/BootstrapGhibli.css';
+import '../../css/rAndMBootstrap.css';
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import LinkComponent from "./LinkComponent";
@@ -28,7 +28,7 @@ const PeopleDetails = () => {
 
             <Navbar />
 
-            <div className="container mt-5">
+            {/* <div className="container mt-5">
                 <div className="row justify-content-center">
                     <div className="col-md-6">
                         <div className="card shadow rounded">
@@ -43,7 +43,7 @@ const PeopleDetails = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 };

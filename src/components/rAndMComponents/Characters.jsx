@@ -1,41 +1,42 @@
 
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import '../../css/BootstrapGhibli.css';
+import '../../css/rAndMBootstrap.css';
 import Navbar from "./Navbar";
 import LinkComponent from "./LinkComponent";
 
 
-const Films = () => {
+const Characters = () => {
 
-    const [films, setFilms] = useState([]);
+    const [character, setCharacter] = useState([]);
 
     useEffect(() => {
-        fetch('https://api-ghibli.herokuapp.com/films')
+        fetch('https://rickandmortyapi.com/api/character/1,2,3,4,5,6,7,8,9,10')
             .then(res => res.json())
-            .then(data => setFilms(data))
+            .then(data => setCharacter(data))
             .catch(e => alert(e.message))
     }, []); //this stays empty b/c we are only running it once
 
     return (
-        <div id="filmApp">
-            <div id="filmContainer">
+        <div id="CharacterApp">
+            <div id="CharacterContainer">
 
-                <div className='ghibliCloseBtn '>
+                <div className='rAndMCloseBtn '>
                     <LinkComponent />
                 </div>
 
                 <Navbar />
-                <section className="row flimsRow justify-content-center mt-5 mb-5">
+                
+                <section className="row justify-content-center mt-5 mb-5">
                     <div className="col-md-6">
                         <ul className="list-group">
-                            {films.map(film => (
+                            {character.map(character => (
                                 <li
-                                    key={`film=${film.id}`}
+                                    key={`character=${character.id}`}
                                     className="list-group-item align-items-center shadow rounded">
-                                    <h3>{film.title}</h3>
-                                    <div>{film.description}</div>
-                                    <Link to={`/films/${film.id}`} className="btn btn-outline-success m-2">
+                                    <h3>{character.name}</h3>
+                                    <div>{character.status}</div>
+                                    <Link to={`/characters/${character.id}`} className="btn btn-outline-success m-2">
                                         Full Details
                                     </Link>
                                 </li>
@@ -48,7 +49,7 @@ const Films = () => {
     )
 };
 
-export default Films;
+export default Characters;
 
 
 

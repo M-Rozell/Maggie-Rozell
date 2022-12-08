@@ -1,6 +1,6 @@
 
 import { Link, useParams } from "react-router-dom";
-import '../../css/BootstrapGhibli.css';
+import '../../css/rAndMBootstrap.css';
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import LinkComponent from "./LinkComponent";

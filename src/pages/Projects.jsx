@@ -1,7 +1,7 @@
 
 import '../css/Projects.css';
-import '../css/BootstrapGhibli.css';
-// import { useNavigate } from 'react-router-dom';
+import '../css/rAndMBootstrap.css';
+import { useNavigate } from 'react-router-dom';
 import React, { useState, Suspense } from 'react';
 
 const TTTModal = React.lazy(() => import("../components/TTTModal"))
@@ -14,15 +14,15 @@ const WeatherModal = React.lazy(() => import("../components/WeatherModal"))
 
 const Projects = () => {
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const [tttmodal, setTTTModal] = useState(false);
   const [task, setTask] = useState(false);
   const [weatherBtn, setWeatherBtn] = useState(false);
   const [btn, setBtn] = useState(true);
 
-  // const navigateToGhibliHome = () => {
-  //   navigate('/GhibliHome');
-  // };
+  const navigateToBootstrapHome = () => {
+    navigate('/RandMHome');
+  };
 
   const handleTTTBtn = () => {
     setTTTModal(true);
@@ -52,7 +52,7 @@ const Projects = () => {
         {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
         {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
         {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
-        {/* {btn && <button className='bootstrapBtn' onClick={navigateToGhibliHome}>Bootstrap Ghibli</button>} */}
+        {btn && <button className='bootstrapBtn' onClick={navigateToBootstrapHome}>Bootstrap</button>}
       </div>
       
       <div className='projectsModalContent'>

@@ -4,7 +4,6 @@
 .navContainer {
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    background-color: white;
 }
 
 .nav-link {
@@ -19,31 +18,31 @@
 
 /* Close Button */
 
-.ghibliCloseBtn {
+.rAndMCloseBtn {
     display: flex;
     justify-content: flex-end; 
 }
 
-.ghibliLink {
+.projectsLink {
     background-color: transparent;
     border: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
     cursor: pointer;
-    color: rgb(41, 41, 41);
+    color: rgb(213, 207, 207);
     margin-top: 1.875rem;
     margin-right: 1.25rem;
 }
 
 
-/* GhibliHome ...changed homeContainer from vw and vh*/
+/* rAndMHome ...changed homeContainer from vw and vh*/
 
 #homeContainer  {
     width: 100%; 
-    height: 100%;
-    background-color: aliceblue;
+    height: 100vh;
+    background-color: rgb(44, 43, 56);
 }
 
-.ghibliHomeBg {
+.rAndMHomeBg {
     display: flex;
     flex-direction: column;
 }
@@ -58,20 +57,24 @@
 }
 
 
-/* Films/Film Details */
+/* Characters/Character Details */
 
-#filmApp {
+#CharacterApp {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
 }
 
-#filmContainer {
+#characterContainer {
+    width: 100%;
+    height: auto;
     overflow-y: auto;
-    background-color: aliceblue;
     position: absolute;
+    padding: 0;
 }
 
 .list-group-item {
