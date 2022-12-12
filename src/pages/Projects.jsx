@@ -1,6 +1,5 @@
 
 import '../css/Projects.css';
-import '../css/rAndMBootstrap.css';
 import { useNavigate } from 'react-router-dom';
 import React, { useState, Suspense } from 'react';
 
@@ -52,7 +51,7 @@ const Projects = () => {
         {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
         {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
         {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
-        {btn && <button className='bootstrapBtn' onClick={navigateToBootstrapHome}>Bootstrap</button>}
+        {/* {btn && <button className='bootstrapBtn' onClick={navigateToBootstrapHome}>Bootstrap</button>} */}
       </div>
       
       <div className='projectsModalContent'>
