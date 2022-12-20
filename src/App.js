@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, lazy, Suspense } from "react";
 import MainHome from "./pages/MainHome";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+const RandMHome = lazy(() => import("./components/rAndMComponents/RandMHome"));
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
@@ -29,6 +31,13 @@ const App = () => {
       <Routes>
         <Route path="/maggie-rozell" element={<MainHome />} />
       </Routes>
+
+      <Suspense fallback={<div className="text-center">Loading...</div>}>
+        <Routes>
+          <Route path="/RandMHome" element={<RandMHome />} />
+        </Routes>
+      </Suspense>
+
     </BrowserRouter>
   );
 };

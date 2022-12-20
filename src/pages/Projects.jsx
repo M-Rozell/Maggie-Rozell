@@ -48,10 +48,11 @@ const Projects = () => {
 
 
       <div className='projectsBtns'>
+        {btn && <button className='bootstrapBtn' onClick={navigateToBootstrapHome}>Bootstrap API</button>}
         {btn && <button className='tttBtn' onClick={() => { handleTTTBtn() }}>Tic Tac Toe</button>}
         {btn && <button className='taskBtn' onClick={() => { handleTaskBtn() }}>Task Compiler</button>}
         {btn && <button className='weatherBtn' onClick={() => { handleWeatherBtn() }}>Weather App</button>}
-        {/* {btn && <button className='bootstrapBtn' onClick={navigateToBootstrapHome}>Bootstrap</button>} */}
+       
       </div>
       
       <div className='projectsModalContent'>
