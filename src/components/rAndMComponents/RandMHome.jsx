@@ -58,10 +58,10 @@ const RandMHome = () => {
                     <LinkComponent />
                 </div>
                 <div className='rAndMLogos d-flex flex-column align-items-center'>
-                    <img src={Logo} className="logo w-50" alt='Character'></img>
+                    <img src={Logo} className="logo w-50 mt-2" alt='Character'></img>
                 </div>
 
-                <form onSubmit={handleSubmit} className="text-center">
+                <form onSubmit={handleSubmit} className="text-center mt-2 submitForm">
                     <label className='searchLabel'>Name:</label>
                     <input
                         type="text"
@@ -81,7 +81,7 @@ const RandMHome = () => {
                 <section>
 
                     {searchCharacters &&
-                        <div className='container mt-5'>
+                        <div className='container mt-2'>
                             <div className="row">
                                 
                                     

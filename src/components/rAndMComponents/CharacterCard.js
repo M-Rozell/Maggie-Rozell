@@ -6,7 +6,7 @@ const CharacterCard = ({ character, loading }) => {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-3">
       <div className="row">
 
       {character.map((character) => (
