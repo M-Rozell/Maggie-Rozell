@@ -1,6 +1,6 @@
 
 import styled, { keyframes } from 'styled-components';
-import HeroImage from "../../images/HeroImageTrees.jpg";
+import HeroImage from "../../images/HeroImageTrees.webp";
 
 const fadeIn = keyframes`
   0% {

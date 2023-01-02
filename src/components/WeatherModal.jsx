@@ -1,7 +1,7 @@
 
 import axios from "axios";
-import moment from "moment";
 import '../css/WeatherModal.css';
+import { format } from 'date-fns';
 import React, { useState } from "react";
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
@@ -42,7 +42,7 @@ function WeatherModal({ closeModal, openBtn }) {
 
                 <div className="search">
                     <input className='weatherInput' value={location} onChange={e => setLocation(e.target.value)} type='text' placeholder="Location" onKeyPress={search} />
-                    <div className="day">{moment().format('MMMM Do YYYY, h:mm a')}</div>
+                    <div className="day">{format(new Date(), 'MMMM do yyyy, h:mm aaa')}</div>
                 </div>
 
 
