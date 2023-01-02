@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/maggie-rozell/static/css/main.b9bd144a.css",
-    "main.js": "/maggie-rozell/static/js/main.653dbd09.js",
+    "main.js": "/maggie-rozell/static/js/main.199ccf0d.js",
     "static/css/85.a7f36bf1.chunk.css": "/maggie-rozell/static/css/85.a7f36bf1.chunk.css",
     "static/js/85.13936681.chunk.js": "/maggie-rozell/static/js/85.13936681.chunk.js",
     "static/css/878.e214bc13.chunk.css": "/maggie-rozell/static/css/878.e214bc13.chunk.css",
     "static/js/878.ef612074.chunk.js": "/maggie-rozell/static/js/878.ef612074.chunk.js",
-    "static/css/326.5eb384ee.chunk.css": "/maggie-rozell/static/css/326.5eb384ee.chunk.css",
-    "static/js/326.2e952552.chunk.js": "/maggie-rozell/static/js/326.2e952552.chunk.js",
-    "static/css/730.2826f2bb.chunk.css": "/maggie-rozell/static/css/730.2826f2bb.chunk.css",
-    "static/js/730.d6b3637b.chunk.js": "/maggie-rozell/static/js/730.d6b3637b.chunk.js",
+    "static/css/836.75f7e5b3.chunk.css": "/maggie-rozell/static/css/836.75f7e5b3.chunk.css",
+    "static/js/836.80e58eb5.chunk.js": "/maggie-rozell/static/js/836.80e58eb5.chunk.js",
+    "static/css/65.51dadd4b.chunk.css": "/maggie-rozell/static/css/65.51dadd4b.chunk.css",
+    "static/js/65.56a45f34.chunk.js": "/maggie-rozell/static/js/65.56a45f34.chunk.js",
     "static/css/635.b06f1068.chunk.css": "/maggie-rozell/static/css/635.b06f1068.chunk.css",
     "static/js/635.f032637b.chunk.js": "/maggie-rozell/static/js/635.f032637b.chunk.js",
     "static/js/569.710a1e57.chunk.js": "/maggie-rozell/static/js/569.710a1e57.chunk.js",
@@ -25,15 +25,15 @@
     "static/media/Nsnap4.jpg": "/maggie-rozell/static/media/Nsnap4.d5902edc5244e1d2b57f.jpg",
     "index.html": "/maggie-rozell/index.html",
     "main.b9bd144a.css.map": "/maggie-rozell/static/css/main.b9bd144a.css.map",
-    "main.653dbd09.js.map": "/maggie-rozell/static/js/main.653dbd09.js.map",
+    "main.199ccf0d.js.map": "/maggie-rozell/static/js/main.199ccf0d.js.map",
     "85.a7f36bf1.chunk.css.map": "/maggie-rozell/static/css/85.a7f36bf1.chunk.css.map",
     "85.13936681.chunk.js.map": "/maggie-rozell/static/js/85.13936681.chunk.js.map",
     "878.e214bc13.chunk.css.map": "/maggie-rozell/static/css/878.e214bc13.chunk.css.map",
     "878.ef612074.chunk.js.map": "/maggie-rozell/static/js/878.ef612074.chunk.js.map",
-    "326.5eb384ee.chunk.css.map": "/maggie-rozell/static/css/326.5eb384ee.chunk.css.map",
-    "326.2e952552.chunk.js.map": "/maggie-rozell/static/js/326.2e952552.chunk.js.map",
-    "730.2826f2bb.chunk.css.map": "/maggie-rozell/static/css/730.2826f2bb.chunk.css.map",
-    "730.d6b3637b.chunk.js.map": "/maggie-rozell/static/js/730.d6b3637b.chunk.js.map",
+    "836.75f7e5b3.chunk.css.map": "/maggie-rozell/static/css/836.75f7e5b3.chunk.css.map",
+    "836.80e58eb5.chunk.js.map": "/maggie-rozell/static/js/836.80e58eb5.chunk.js.map",
+    "65.51dadd4b.chunk.css.map": "/maggie-rozell/static/css/65.51dadd4b.chunk.css.map",
+    "65.56a45f34.chunk.js.map": "/maggie-rozell/static/js/65.56a45f34.chunk.js.map",
     "635.b06f1068.chunk.css.map": "/maggie-rozell/static/css/635.b06f1068.chunk.css.map",
     "635.f032637b.chunk.js.map": "/maggie-rozell/static/js/635.f032637b.chunk.js.map",
     "569.710a1e57.chunk.js.map": "/maggie-rozell/static/js/569.710a1e57.chunk.js.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.b9bd144a.css",
-    "static/js/main.653dbd09.js"
+    "static/js/main.199ccf0d.js"
   ]
 }
