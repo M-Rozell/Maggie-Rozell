@@ -13,8 +13,8 @@ const Skills = ({ CloseKiraVideo }) => {
 
       <h1 className='skillsTitle' id='rotate'>Skills</h1>
 
-      <div className='windowContainer'>
-        <div className='window'>
+      <div className='skillsWindowContainer'>
+        <div className='skillsWindow'>
 
           <ScrollingSkills />
 

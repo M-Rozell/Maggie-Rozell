@@ -3,8 +3,8 @@ import '../css/Projects.css';
 import { useNavigate } from 'react-router-dom';
 import React, { useState, Suspense } from 'react';
 
-const TTTModal = React.lazy(() => import("../components/TTTModal"))
-const TaskModal = React.lazy(() => import("../components/TaskModal"))
+const TTTModal = React.lazy(() => import("../components/tttComponents/TTTModal"))
+const TaskModal = React.lazy(() => import("../components/taskComponents/TaskModal"))
 const WeatherModal = React.lazy(() => import("../components/WeatherModal"))
 
 

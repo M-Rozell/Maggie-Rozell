@@ -1,5 +1,15 @@
 
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+`
 
 export const VideoContainer = styled.div`
     width: 100%;
@@ -72,6 +82,11 @@ export const KiraVideo = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    animation-name: ${fadeIn};
+    animation-duration: 5s;
+
+
+
 
     @media screen and (min-width: 90em) {
         width: 29.6875rem;

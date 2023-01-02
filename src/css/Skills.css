@@ -82,7 +82,7 @@
 }
 
 
-.windowContainer {
+.skillsWindowContainer {
   position: relative;
   width: 100%;
   height: 100%;
@@ -90,11 +90,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 2;
+    z-index: 2;
 }
 
 
-.window {
+.skillsWindow {
   position: relative;
   width: 17.375rem;  
   height: 25rem;
@@ -103,20 +103,20 @@
   overscroll-behavior: contain;
 }
   @media screen and (min-width: 23.5em) {
-    .window {
+    .skillsWindow {
       width: 18.75rem;
       height: 31.25rem;
   }
 }
   @media screen and (min-width: 48em) {
-    .window {
+    .skillsWindow {
       width: 25rem;
       height: 70vh;
       margin-top: 1.875rem;
   }
 }
   @media screen and (min-width: 90em) {
-    .window {
+    .skillsWindow {
       width: 34.375rem;
       height: 50vh;
       margin-top: 1.875rem;

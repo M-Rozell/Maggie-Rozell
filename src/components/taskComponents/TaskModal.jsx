@@ -1,8 +1,8 @@
 
 import React from 'react';
-import "../css/TaskModal.css";
+import "../../css/TaskModal.css";
 import { AiFillCloseCircle } from 'react-icons/ai';
-import TaskList from "../components/taskComponents/TaskList";
+import TaskList from "./TaskList";
 
 
 function TaskModal({ closeModal, openBtn }) {

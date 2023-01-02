@@ -41,6 +41,7 @@ export const ScrollSkills = styled.div`
   transition: .1s;
   transition: margin 1s;
   color: #bb2e12;
+  
 
   &:hover {
     margin-top: -218.75rem;
@@ -61,6 +62,6 @@ export const ScrollSkills = styled.div`
 export const ScrollList = styled.ul`
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  
 `
 

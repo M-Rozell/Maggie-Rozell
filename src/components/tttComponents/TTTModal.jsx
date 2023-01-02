@@ -1,9 +1,9 @@
 
-import '../css/TTTModal.css';
-import Square from './tttComponents/Square';
+import '../../css/TTTModal.css';
+import Square from './Square';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import React, { useState, useEffect } from 'react';
-import { WinningCells } from './tttComponents/WinningCells';
+import { WinningCells } from './WinningCells';
 
 
 function TTTModal({ closeModal, openBtn }) {

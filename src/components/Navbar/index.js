@@ -1,29 +1,29 @@
 
 import Sidebar from '../Sidebar';
 import { FaBars } from 'react-icons/fa';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Nav, NavbarContainer, MobilIconWrapper, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
 
 const MainNavbar = ({ CloseKiraVideo }) => {
 
-  const [scrollNav, setScrollNav] = useState(false);
+  // const [scrollNav, setScrollNav] = useState(false);
   const [sidebar, setSidebar] = useState(false);
   const [navIcon, setNavIcon] = useState(true);
 
 
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true)
-    } else {
-      setScrollNav(false)
-    }
-  };
+  // const changeNav = () => {
+  //   if (window.scrollY >= 80) {
+  //     setScrollNav(true)
+  //   } else {
+  //     setScrollNav(false)
+  //   }
+  // };
 
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeNav)
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeNav)
+  // }, []);
 
   
   const handleMobileIcon = () => {
@@ -34,7 +34,8 @@ const MainNavbar = ({ CloseKiraVideo }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+    {/* scrollNav={scrollNav} */}
+      <Nav >  
 
         <NavbarContainer>
 
