@@ -11,7 +11,7 @@ const HeroSection = () => {
       <TextWrapper>
 
         <NameP1 className="name fade-in-text">Maggie Rozell</NameP1>
-        <NameP2 className="name fade-in-text">{`{frontEndDeveloper}`}</NameP2>
+        <NameP2 className="name fade-in-text">{`{frontendDeveloper}`}</NameP2>
 
       </TextWrapper>
     </HeroContainer>
