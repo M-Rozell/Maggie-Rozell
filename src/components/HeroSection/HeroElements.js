@@ -1,6 +1,7 @@
 
 import styled, { keyframes } from 'styled-components';
 import HeroImage from "../../images/HeroImageTrees.webp";
+import SmallHeroImage from "../../images/768-1024HeroImage.webp"
 
 const fadeIn = keyframes`
   0% {
@@ -15,7 +16,7 @@ const fadeIn = keyframes`
 export const HeroContainer = styled.div`
   width: 100%;
   height: 100vh;
-  background-image: url(${HeroImage});
+  background-image: url(${SmallHeroImage});
   background-repeat: no-repeat;
   background-position: center center fixed;
   background-size: cover;
@@ -27,6 +28,7 @@ export const HeroContainer = styled.div`
 
     @media screen and (min-width: 48em) {
       border: 1px solid cornsilk;
+      background-image: url(${HeroImage});
     }
 `
 
