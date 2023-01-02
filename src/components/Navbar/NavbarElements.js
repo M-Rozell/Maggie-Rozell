@@ -1,13 +1,20 @@
+import styled, { keyframes } from "styled-components";
+import { Link as LinkScroll } from "react-scroll";
 
-import styled from 'styled-components';
-import { Link as LinkScroll } from 'react-scroll';
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+  }
 
+  100% {
+    opacity: 1;
+  }
+`;
 
 export const Nav = styled.nav`
   width: 100%;
   overflow-x: hidden;
-  /* background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'rgb(40, 40, 40, 0.65)')};
-  border-bottom: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
+  position: relative;
   height: 4.375rem;
   margin-top: -4.375rem;
   display: flex;
@@ -16,29 +23,10 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index:20;
-
-
-  @media screen and (min-width: 48em) {
-    /* border: ${({scrollNav}) => (scrollNav ? 'transparent' : "1px solid cornsilk")}; */
-  }
-
-  /* @media screen and (max-width: 960px) {
-    transition: 0.8s all ease;
-} */
-`
-
-
-export const NavbarContainer = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  width: 100%;
-  padding: 0;
-  /* max-width: 1100px; */
-`
+  z-index: 20;
+  animation-name: ${fadeIn};
+  animation-duration: 1s;
+`;
 
 export const MobilIconWrapper = styled.div`
   width: 100%;
@@ -47,27 +35,23 @@ export const MobilIconWrapper = styled.div`
   justify-content: flex-end;
   align-items: center;
 
-
   @media screen and (min-width: 48em) {
-  display: none;
-}
-`
+    display: none;
+  }
+`;
 
 export const MobileIcon = styled.div`
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    transform: translate(-100%, 15%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: #F7EF8A;
-  
+  display: flex;
+  align-items: center;
+  transform: translate(-100%, 15%);
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #f7ef8a;
 
   @media screen and (min-width: 48em) {
     display: none;
-}
-`
-
+  }
+`;
 
 export const NavMenu = styled.div`
   display: none;
@@ -79,53 +63,31 @@ export const NavMenu = styled.div`
     align-items: center;
     justify-content: center;
   }
-`
-
-
-export const NavItem = styled.div`
-  height: 3.75rem; //was 80
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
+`;
 
 export const NavLinks = styled(LinkScroll)`
-  appearance: button;
   background-color: rgb(40, 40, 40, 0.6);
-  background-image: none;
-  border: 1px solid #F7EF8A;
+  border: 1px solid #f7ef8a;
   border-radius: 2px;
-  box-shadow: cornsilk 4px 4px 0 0, #F7EF8A 4px 4px 0 1px;
-  box-sizing: border-box;
-  color: #F7EF8A;
+  box-shadow: cornsilk 3px 3px 0 0, #f7ef8a 3px 3px 0 1px;
+  color: #f7ef8a;
   cursor: pointer;
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: .75rem;
-  line-height: 20px;
+  font-size: 0.75rem;
   margin: 0 1.875rem 0.625rem 0;
-  overflow: visible;
   text-align: center;
   text-decoration: none;
-  touch-action: manipulation;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
   padding: 0.25rem 1.5625rem;
 
   &:hover {
     text-decoration: none;
-    color: cornsilk;  
-}
+    color: cornsilk;
+  }
 
   &:active {
-    color: #AE8625;
-    box-shadow: cornsilk 2px 2px 0 0, #AE8625 2px 2px 0 1px;
+    color: #ae8625;
+    box-shadow: cornsilk 2px 2px 0 0, #ae8625 2px 2px 0 1px;
     transform: translate(2px, 2px);
-}
-`
-
-
+  }
+`;

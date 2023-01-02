@@ -22,6 +22,8 @@ export const HeroContainer = styled.div`
   margin: 0;
   padding: 0;
   overflow: hidden;
+  animation-name: ${fadeIn};
+  animation-duration: 1s;
 
     @media screen and (min-width: 48em) {
       border: 1px solid cornsilk;
