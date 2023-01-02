@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maggie-rozell/static/css/main.54d080a0.css",
-    "main.js": "/maggie-rozell/static/js/main.6f3628db.js",
+    "main.js": "/maggie-rozell/static/js/main.7110a889.js",
     "static/css/85.a7f36bf1.chunk.css": "/maggie-rozell/static/css/85.a7f36bf1.chunk.css",
     "static/js/85.13936681.chunk.js": "/maggie-rozell/static/js/85.13936681.chunk.js",
     "static/css/878.e214bc13.chunk.css": "/maggie-rozell/static/css/878.e214bc13.chunk.css",
@@ -19,13 +19,14 @@
     "static/media/concrete.webp": "/maggie-rozell/static/media/concrete.f2a64bdbcd2f8f62aeee.webp",
     "static/media/HeroImageTrees.webp": "/maggie-rozell/static/media/HeroImageTrees.90d171f97d2a11c2e228.webp",
     "static/media/bellingrath-gardens.webp": "/maggie-rozell/static/media/bellingrath-gardens.7c72c57984d9092bd3f7.webp",
+    "static/media/768-1024HeroImage.webp": "/maggie-rozell/static/media/768-1024HeroImage.5937678612d15a7bd021.webp",
     "static/media/Maggie-Rozell-Resume.pdf": "/maggie-rozell/static/media/Maggie-Rozell-Resume.cc1c5f2baf3055278b38.pdf",
     "static/media/rick.png": "/maggie-rozell/static/media/rick.93ee110219392ee19da8.png",
     "static/media/Dark.webp": "/maggie-rozell/static/media/Dark.a58836a39c6fd00944a5.webp",
     "static/media/Nsnap4.webp": "/maggie-rozell/static/media/Nsnap4.fed7981fa226f01545b3.webp",
     "index.html": "/maggie-rozell/index.html",
     "main.54d080a0.css.map": "/maggie-rozell/static/css/main.54d080a0.css.map",
-    "main.6f3628db.js.map": "/maggie-rozell/static/js/main.6f3628db.js.map",
+    "main.7110a889.js.map": "/maggie-rozell/static/js/main.7110a889.js.map",
     "85.a7f36bf1.chunk.css.map": "/maggie-rozell/static/css/85.a7f36bf1.chunk.css.map",
     "85.13936681.chunk.js.map": "/maggie-rozell/static/js/85.13936681.chunk.js.map",
     "878.e214bc13.chunk.css.map": "/maggie-rozell/static/css/878.e214bc13.chunk.css.map",
@@ -42,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.54d080a0.css",
-    "static/js/main.6f3628db.js"
+    "static/js/main.7110a889.js"
   ]
 }
