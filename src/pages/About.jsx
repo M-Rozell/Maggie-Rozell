@@ -57,7 +57,7 @@ const About = () => {
                                 <motion.div className="certifications"
                                     variants={textAnimate}>
 
-                                    <h3 className="txtCertifications">Certifications:</h3>
+                                    <h2 className="txtCertifications">Certifications:</h2>
                                     <ul className="certList">
                                         <li>Innovate Birmingham Full-Stack Web Development</li>
                                         <li> Agile Education Registered Scrum Master</li>
@@ -72,7 +72,7 @@ const About = () => {
                                 <motion.div className="education"
                                     variants={textAnimate}>
 
-                                    <h3 className="txtEducation">Education:</h3>
+                                    <h2 className="txtEducation">Education:</h2>
                                     <ul className="educationList">
                                         <li>Innovate Birmingham: Web-Dev</li>
                                         <li>UAH: BFA (Graphic Design)</li>

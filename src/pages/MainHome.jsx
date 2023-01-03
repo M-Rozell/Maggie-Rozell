@@ -36,7 +36,7 @@ const MainHome = () => {
     <>
       <MainNavbar CloseKiraVideo={setOpenKira} aria-label="navbar"/>
 
-      <CatIcon onClick={() => { setOpenKira(true) }} aria-label="cat video">
+      <CatIcon onClick={() => { setOpenKira(true) }} >
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>
 
