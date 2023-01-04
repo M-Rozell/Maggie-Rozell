@@ -40,18 +40,6 @@ export const MobilIconWrapper = styled.div`
   }
 `;
 
-export const MobileIcon = styled.div`
-  display: flex;
-  align-items: center;
-  transform: translate(-100%, 15%);
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #f7ef8a;
-
-  @media screen and (min-width: 48em) {
-    display: none;
-  }
-`;
 
 export const NavMenu = styled.div`
   display: none;

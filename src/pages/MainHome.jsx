@@ -4,7 +4,7 @@ import "../css/MainHome.css";
 import Skills from './Skills';
 import Projects from './Projects';
 import { GiHollowCat } from 'react-icons/gi';
-import MainNavbar from '../components/Navbar';
+import MainNavbar from '../components/NavbarComponents/Navbar';
 import HeroSection from '../components/HeroSection';
 import React, { useState, useRef, Suspense } from 'react';
 import { CatIcon } from '../components/HeroSection/HeroElements';
@@ -17,6 +17,7 @@ const MainHome = () => {
 
 
   const [openKira, setOpenKira] = useState(false);
+  
   const videoSection = useRef(null);
 
   const scrollDownVideo = () => {
@@ -30,17 +31,16 @@ const MainHome = () => {
 
 
 
-
   return (
 
     <>
-      <MainNavbar CloseKiraVideo={setOpenKira} aria-label="navbar"/>
+      <MainNavbar CloseKiraVideo={setOpenKira} aria-label="navbar" />
 
       <CatIcon onClick={() => { setOpenKira(true) }} >
         <GiHollowCat onClick={() => { scrollDownVideo() }} />
       </CatIcon>
 
-      <main>
+      <main >
         <section className='homeSections'>
           <HeroSection />
         </section>
@@ -56,7 +56,6 @@ const MainHome = () => {
         <section className='skillsSections'>
           <Skills CloseKiraVideo={setOpenKira} />
         </section>
-
 
 
         <section className='kiraSections'>
