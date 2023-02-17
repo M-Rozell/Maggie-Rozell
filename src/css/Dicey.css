@@ -1,0 +1,81 @@
+
+
+.diceyCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(40, 40, 40, 0.8);
+}
+
+
+.diceyContainer {
+    margin-top: 2rem;
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.diceGameH1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.diceyBtnContainer {
+    text-align: center;
+}
+
+.newDie,
+.rerollDie,
+.sumDie {
+  background-color: #222;
+  border-radius: 0.25rem;
+  padding: 0.1875rem 1.25rem;
+  border: .5px solid white;
+  color: #b2b1b1;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.newDie:hover,
+.rerollDie:hover,
+.sumDie:hover {
+    opacity: .75;
+}
+
+.diceyP {
+    text-align: center;
+    color: #020006; 
+    font-size: 1rem;
+    font-weight: 700;
+}
+@media screen and (max-width: 64em) {
+    .diceyP {
+        display: none;
+    }
+  }
+
+
+
+.diceUl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.dice {
+    cursor: pointer;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+

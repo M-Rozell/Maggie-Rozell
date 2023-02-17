@@ -167,6 +167,36 @@
 }
 
 
+.diceyBtn {
+    background: transparent;
+    color: cornsilk;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    padding: .15rem .5rem;
+    background-color: rgb(40, 40, 40, 0.6);
+    margin-top: 0.625rem;
+}
+    @media screen and (min-width: 90em) {
+        .diceyBtn {
+            font-size: 2rem;
+            padding: .3rem 3rem;
+    }
+}
+    @media screen and (min-width: 160em) {
+        .diceyBtn {
+            font-size: 3rem;
+            border: 3px solid cornsilk;
+    }
+}
+
+.diceyBtn:hover {
+    color: #F7EF8A;
+    border: 1px solid #F7EF8A;
+    transform: scale(1.1);
+}
+
 .projectsModalContent {
     width: 100%;
     height: 100%;
