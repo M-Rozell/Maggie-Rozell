@@ -90,7 +90,7 @@ export const Dicey = ({ closeModal, openBtn }) => {
           Sum
         </button>
       </div>
-      <p className="diceyP">On desktop dblClick to a remove die</p>
+      <p className="diceyP">DblClick on a die to remove it.</p>
 
       <div className="diceContainerDiv" ref={squareRef}>
         <ul className="diceUl" >
