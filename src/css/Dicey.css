@@ -20,15 +20,18 @@
     /* overflow: hidden; */
 }
 
+
 .diceGameH1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 600;
     text-align: center;
 }
 
+
 .diceyBtnContainer {
     text-align: center;
 }
+
 
 .newDie,
 .rerollDie,
@@ -46,11 +49,13 @@
   text-align: center;
 }
 
+
 .newDie:hover,
 .rerollDie:hover,
 .sumDie:hover {
     opacity: .75;
 }
+
 
 .diceyP {
     text-align: center;
@@ -58,11 +63,6 @@
     font-size: 1rem;
     font-weight: 700;
 }
-@media screen and (max-width: 64em) {
-    .diceyP {
-        display: none;
-    }
-  }
 
 
 
@@ -72,6 +72,7 @@
     flex-wrap: wrap;
     list-style-type: none;
 }
+
 
 .dice {
     cursor: pointer;
