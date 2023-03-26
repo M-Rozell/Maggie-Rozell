@@ -24,6 +24,8 @@ const ScrollingSkills = () => {
               <li>ExpressJS</li>
               <li>NodeJS</li>
               <li>React</li>
+              <li>PHP</li>
+              <li>WordPress</li>
               <li>Figma</li>
               <li>VS Code</li>
               <li>Postman</li>
@@ -52,6 +54,8 @@ const ScrollingSkills = () => {
               <li>ExpressJS</li>
               <li>NodeJS</li>
               <li>React</li>
+              <li>PHP</li>
+              <li>WordPress</li>
               <li>Figma</li>
               <li>VS Code</li>
               <li>Postman</li>
@@ -80,6 +84,8 @@ const ScrollingSkills = () => {
               <li>ExpressJS</li>
               <li>NodeJS</li>
               <li>React</li>
+              <li>PHP</li>
+              <li>WordPress</li>
               <li>Figma</li>
               <li>VS Code</li>
               <li>Postman</li>
